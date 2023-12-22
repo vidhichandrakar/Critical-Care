@@ -8,3 +8,83 @@ body {
 code {
   font-family:"Inter" !important ;
 }
+.LoginButton{
+  width:30;
+  height: 30;
+}
+.logo{
+  width: 200px;
+  height: 50px;
+  margin-left:3%;
+}
+.loginContainer{
+  margin-right: 3%;
+}
+
+@media screen and (max-width: 485px) {
+  .LoginButton{
+    width:6 !important;
+    height: 6 !important;
+    font-size: 0.6em !important;
+   
+  }
+  .logo{
+    display: none;
+    width:100px !important;
+    height: 40px !important;
+    margin-left:1% !important;
+  }
+  .loginContainer{
+    margin-right: 1%;
+  }
+}
+@media screen and (max-width: 475px) {
+  .LoginButton{
+    width:5 !important;
+    height: 5 !important;
+    font-size: 0.5em !important;
+   
+  }
+  .logo{
+    display: none;
+    width:100px !important;
+    height: 40px !important;
+    margin-left:1% !important;
+  }
+  .loginContainer{
+    margin-right: 1%;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  .LoginButton{
+    width:2 !important;
+    height: 2 !important;
+    font-size: 0.3em !important;
+   
+  
+  }
+  .logo{
+    display: none;
+    width: 150px !important;
+    height: 40px !important;
+    margin-left:1% !important;
+  }
+  .loginContainer{
+    margin-right: 1%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .LoginButton{
+    width:1 !important;
+    height: 1 !important;
+    font-size: 0.5em !important;
+  }
+  .logo{
+    width: 100px !important;
+    height: 20px !important;
+  }
+  .loginContainer{
+    margin-right: 1%;
+  }
+}

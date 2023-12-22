@@ -15,14 +15,24 @@ import Logo from "../../Media/Images/Logo.png"
 import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import { styled, alpha } from '@mui/material/styles';
+import EditIcon from '@mui/icons-material/Edit';
+import Divider from '@mui/material/Divider';
+import ArchiveIcon from '@mui/icons-material/Archive';
+import FileCopyIcon from '@mui/icons-material/FileCopy';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import DropDown from './NestedMenu';
+
 
 const pages = ['All Courses','Contact Us','About Us'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
@@ -34,25 +44,12 @@ function Header() {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
-  const [abc,setabc]=React.useState([])
-  const handleChange=(e)=>{
-    let arr = [];
-   arr.push(...abc,e.target.value);
-   console.log("abc",arr)
-   setabc(arr)
-  }
-
+ 
   return (
     <AppBar position="static">
-      {console.log("hdgfh",abc)}
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} width={200} height={50} />
-        
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+        <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -81,13 +78,22 @@ function Header() {
                 display: { xs: 'block', md: 'none' }
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu} style={{fontFamily:"Inter !important"}}>
-                  <Typography textAlign="center" style={{color:"#000",fontFamily:"Inter !important",fontWeight:"600 !important"}}>{page}</Typography>
+              
+                <MenuItem key={1} onClick={handleCloseNavMenu} style={{fontFamily:"Inter !important"}}>
+                 <DropDown/>
                 </MenuItem>
-              ))}
+                <MenuItem key={1} onClick={handleCloseNavMenu} style={{fontFamily:"Inter !important"}}>
+                  <Typography textAlign="center" style={{color:"#000",fontFamily:"Inter !important",fontWeight:"600 !important"}}>About Us</Typography>
+                </MenuItem>
+                <MenuItem key={1} onClick={handleCloseNavMenu} style={{fontFamily:"Inter !important"}}>
+                  <Typography textAlign="center" style={{color:"#000",fontFamily:"Inter !important",fontWeight:"600 !important"}}>Contact Us</Typography>
+                </MenuItem>
+          
             </Menu>
           </Box>
+          {/* <img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className='logo'  /> */}
+        
+        
           <Typography
             variant="h5"
             noWrap
@@ -108,29 +114,13 @@ function Header() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex'} }}>
             
-          <Box sx={{ minWidth: 240 ,height:"40px" }}>
-      <FormControl size="small" sx={{width:180}}>
-      <InputLabel id="demo-select-small-label" sx={{marginBottom:"1%"}}>All Courses</InputLabel>
-        <Select
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          // value={age}
-          label="All Courses"
-          placeholder='All Courses'
-          // onChange={handleChange}
-          sx={{color:"#000"}}
-        >
-          <MenuItem value={{a:"Abc",b:"bcd"}} style={{color:"#000"}}>All Courses</MenuItem>
-          <MenuItem value={{a:"Ab3",b:"bcd"}} style={{color:"#000"}}>All Courses</MenuItem>
-          <MenuItem value={{a:"Abc4",b:"bcd"}} style={{color:"#000"}}>All Courses</MenuItem>
-          <MenuItem value={{a:"Abc5",b:"bcd"}} style={{color:"#000"}}>All Courses</MenuItem>
-        </Select>
-      </FormControl>
+          <Box >
+            <DropDown/>
     </Box>
               <Typography
                 key={"2"}
                 onClick={handleCloseNavMenu}
-                sx={{  color: 'black',fontFamily:"Inter" ,fontWeight:"600",marginLeft:"2%",fontSize:"1.1em",marginTop:"0.4%"}}
+                sx={{  color: 'black',fontFamily:"Inter" ,fontWeight:"600",marginLeft:"1%",fontSize:"1.1em",marginTop:"0.4%"}}
               >
                 About Us
               </Typography>
@@ -144,12 +134,11 @@ function Header() {
            
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <Button variant="contained" width={30} height={30}>
+          <Box sx={{ flexGrow: 0 }} className="loginContainer">
+              <Button variant="contained" className='LoginButton'>
                 Login / Register
               </Button>
-            </Tooltip>
+           
            
           </Box>
         </Toolbar>
