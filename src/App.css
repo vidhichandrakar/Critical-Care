@@ -12,7 +12,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  background-color: #ffffff !important;
+  color:#000000 !important;
+}
+.MuiBox-root .css-1lvtzne{
+  color: #000000 !important;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
