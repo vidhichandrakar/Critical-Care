@@ -91,7 +91,7 @@ function Header() {
           
             </Menu>
           </Box>
-          {/* <img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className='logo'  /> */}
+          <img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className='logo'  />
         
         
           <Typography
@@ -112,7 +112,7 @@ function Header() {
           >
             
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex'} }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex'} ,marginLeft:"3%"}}>
             
           <Box >
             <DropDown/>
@@ -120,7 +120,7 @@ function Header() {
               <Typography
                 key={"2"}
                 onClick={handleCloseNavMenu}
-                sx={{  color: 'black',fontFamily:"Inter" ,fontWeight:"600",marginLeft:"1%",fontSize:"1.1em",marginTop:"0.4%"}}
+                sx={{  color: 'black',fontFamily:"Inter" ,fontWeight:"600",marginLeft:"2%",fontSize:"1.1em",marginTop:"0.4%"}}
               >
                 About Us
               </Typography>

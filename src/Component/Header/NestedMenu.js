@@ -57,11 +57,14 @@ const DropDown = () => {
         rightIcon={<KeyboardArrowRightIcon />}
         menu={[
           <DropdownMenuItem onClick={() => {}}>
-            More 3
+            EDIC 1
           </DropdownMenuItem>,
           <DropdownMenuItem onClick={() => {}}>
-            More 4
+            EDIC 2
           </DropdownMenuItem>,
+           <DropdownMenuItem onClick={() => {}}>
+           TRICS-I
+         </DropdownMenuItem>
         ]}>
           Delete <DeleteForeverIcon />
         </DropdownNestedMenuItem>,
@@ -69,25 +72,30 @@ const DropDown = () => {
         rightIcon={<KeyboardArrowRightIcon />}
         menu={[
           <DropdownMenuItem onClick={() => {}}>
-            More 3
-          </DropdownMenuItem>,
-          <DropdownMenuItem onClick={() => {}}>
-            More 4
-          </DropdownMenuItem>,
+            TRICS-IDCCM
+          </DropdownMenuItem>
+         
         ]}>
           Delete <DeleteForeverIcon />
         </DropdownNestedMenuItem>,
-        <Divider />,
+        
         <DropdownNestedMenuItem
           label="Other"
           rightIcon={<KeyboardArrowRightIcon />}
           menu={[
             <DropdownMenuItem onClick={() => {}}>
-              More 1
+              Nephro Critical Care Review Course
             </DropdownMenuItem>,
             <DropdownMenuItem onClick={() => {}}>
-              More 2
+              Sepsis BASIC
             </DropdownMenuItem>,
+            <DropdownMenuItem onClick={() => {}}>
+            Sepsis ADVANCED
+          </DropdownMenuItem>,
+        <DropdownMenuItem onClick={() => {}}>
+        Critical Care Nutrition
+      </DropdownMenuItem>,
+    
           ]}
         />,
       ]}

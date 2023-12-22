@@ -20,13 +20,38 @@ code {
 .loginContainer{
   margin-right: 3%;
 }
-
+.homeImage img{
+  transform-style: preserve-3d;
+   height:60vh !important;
+  width: 100%;
+  z-index: 78 !important;
+}
+.cardHome{
+  width:71% !important;
+  overflow: visible;
+  height:20%;
+  /* border: 1px solid #c0bebe; */
+  display: block;
+  margin: auto;
+  background-color: white;
+  padding: 7%;
+  
+  border-radius: 25px 25px 25px 25px;
+  transform: translateY(-28%);
+  
+  box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
+}
 @media screen and (max-width: 485px) {
   .LoginButton{
     width:6 !important;
     height: 6 !important;
     font-size: 0.6em !important;
    
+  }
+  .homeImage img{
+    transform-style: preserve-3d;
+     height:auto !important;
+    width: 100%;
   }
   .logo{
     display: none;
