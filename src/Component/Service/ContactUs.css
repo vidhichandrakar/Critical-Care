@@ -25,6 +25,9 @@
 }
 
 .contactUs2_1{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
      text-align: left;
      padding: 2% 2%;
      font-family:Arial, Helvetica, sans-serif;    
@@ -32,17 +35,26 @@
 }
 
 .contactEmailId{
-    padding: 0%;
+    /* padding: 0%; */
     margin-top: 2%;
     font-size: small;
+    padding: 0px 0px;
+    width: 36%;
+    
 }
 
 .getDirectionBox {
-    margin: 8px -18px;
-    padding: 14px 47px;
-    height: auto;
-    
+    margin: 14px 150px;
+    /* margin-left: 0% !important; */
+    padding: 15px 44px;
+    align-items: left;
+    justify-content: left;
+    text-align: center;
+    /* height: auto; */
+    /* margin-top: 2%; */
     border-radius: 12px;
+    margin-left: 0%;
+    width: 36%;
 
 }
 

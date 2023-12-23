@@ -8,9 +8,8 @@ import PrivacyPolicy from './Component/Service/PrivacyPolicy';
 function App() {
   return (
     <div className="App">
-      {/* <MainComponent/> */}
-      <ContactUs/>
-      <PrivacyPolicy/>
+      <MainComponent/>
+      
     </div>
   );
 }

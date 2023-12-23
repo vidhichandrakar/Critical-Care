@@ -9,7 +9,7 @@ function ContactUs() {
   return (
     <>
     <div className='allContactUs'>
-      <Header/>
+      {/* <Header/> */}
      <div className='contactUsHeading'> <span className='contactHeading'> Contact </span> <span className='usHeading'> Us </span> </div>
      <div className='contactUs1'>
        <p>This is the official page of Physics Wallah, where you can share all your queries, feedback, complaints, or 
@@ -39,9 +39,7 @@ only. Your suggestions will help us improve and give you and all the children a 
 
     <button type="button" className='contactEmailId'> support@360criticalcare.com </button>
 
-    <Container fixed> 
     <button sx={{ variant: OutlinedFlag, bgcolor: '#FFFFFF' }} className="getDirectionBox" > Get Direction </button>
-      </Container>
 </div>
 
 
