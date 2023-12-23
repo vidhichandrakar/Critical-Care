@@ -1,0 +1,61 @@
+.allContactUs{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.contactUsHeading{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-top: 3%;
+}
+.contactHeading{
+    color: black;
+    font-weight: bold !important;
+}
+
+.usHeading{
+    color: blue;
+    font-weight: bold !important;
+}
+
+.contactUs1{
+     text-align: left;
+     padding: 2% 2%;
+     font-family:Arial, Helvetica, sans-serif;
+     font-size: small;
+}
+
+.contactUs2_1{
+     text-align: left;
+     padding: 2% 2%;
+     font-family:Arial, Helvetica, sans-serif;    
+     font-size: small;
+}
+
+.contactEmailId{
+    padding: 0%;
+    margin-top: 2%;
+    font-size: small;
+}
+
+.getDirectionBox {
+    margin: 8px -18px;
+    padding: 14px 47px;
+    height: auto;
+    
+    border-radius: 12px;
+
+}
+
+
+
+.fAQSection{
+    margin-top: 1%;
+    text-align: left;
+    padding: 2% 2%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.qna{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+}
