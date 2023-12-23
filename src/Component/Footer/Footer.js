@@ -1,0 +1,98 @@
+import React from "react";
+import "./footer.css";
+import Logo from "../../Media/Images/Logo.png";
+import GoogleLogo from "../../Media/Images/Google_logo.png";
+import fb from "../../Media/Images/fblogo.PNG";
+import AppLogo from "../../Media/Images/App_Logo.jpg";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+
+function Footer() {
+  return (
+    <div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col w50">
+              <img
+                src={Logo}
+                sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+                width={250}
+                height={50}
+              />
+                <h4 >For Enquiry :</h4>
+              <p className="text-color-white">
+                We understand that every student has different needs and
+                capabilities, which is why we create such a wonderful and unique
+                curriculum that is the best fit for every student.
+              </p>
+            </div>
+            <div class="footer-col ">
+              <div className="col pad-line">
+               <a href='#'>
+                <img
+                  src={GoogleLogo}
+                  sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+                  width={100}
+                  height={40}
+                  className="margin"
+                />
+                </a> 
+                <a href='#'>
+                <img
+                  src={AppLogo}
+                  sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+                  width={100}
+                  height={40}
+                  className="margin"
+                />
+                </a>
+              </div>
+              <div className="col">
+                <h4>Follow us :</h4>
+                <div>
+                  <a href="#" className="sp">
+                    <img src={fb} className="BR" />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="https://ik.imagekit.io/y8s2vhk66ef/image_2_Bi5cqcyBFNT.png?updatedAt=1628624823915"className="BR" 
+                      alt="instagram"
+                    />
+                  </a>
+                  <a href="#">
+                    <YouTubeIcon className="BR br-bg"  />
+                  </a>
+                  <a href="#">
+                    <img src=" https://ik.imagekit.io/y8s2vhk66ef/image_3_yByOZld4XFh.png?updatedAt=1628624824789" className="BR"  />
+                  </a>
+                </div>
+              </div>
+              <div className="col">
+                <h4>For Enquiry :</h4>
+                <h4>care@360criticalcare.com</h4>
+              </div>
+            </div>
+          </div>
+          <div className="pad-line">
+            <hr className="line" />
+          </div>
+          <div className="row">
+            <div className="col fontWidth text-color-white">
+              <p >Terms and Condition |</p>
+              <p className="margin-left">Privacy Policy |</p>
+              <p className="margin-left">About Us |</p>
+              <p className="margin-left">Contact Us </p>
+            </div>
+
+            <p className="text-color-white">
+              Copyright @{new Date().getFullYear()} 360 Critical Care. All
+              Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+export default Footer;

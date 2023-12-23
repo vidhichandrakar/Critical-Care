@@ -1,0 +1,12 @@
+.text h1{
+    font-size: 2.5em;
+    text-align: left;
+    padding: 28px;
+}
+.text p{
+    font-size: 1.1em;
+    text-align: left;
+    padding: 28px;
+    color: black;
+    font-weight: 450;
+}

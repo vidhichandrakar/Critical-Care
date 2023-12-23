@@ -29,24 +29,141 @@ code {
 .cardHome{
   width:71% !important;
   overflow: visible;
-  height:20%;
+  height:60%;
   /* border: 1px solid #c0bebe; */
-  display: block;
+  display:flex;
   margin: auto;
   background-color: white;
-  padding: 7%;
-  
+  padding: 1%;
+  padding-bottom: 10%;
   border-radius: 25px 25px 25px 25px;
   transform: translateY(-28%);
-  
+   flex-direction: row;
   box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
 }
-@media screen and (max-width: 485px) {
+.divHomeImage{
+}
+.appImage{
+  /* float: right; */position: absolute;
+  right:0;
+  margin-right: 2%;
+  width:27%;
+  height:82%}
+.rowDesign{
+}
+.leftDesign{
+  width:70%;
+  height:50%;
+  text-align: left;
+  margin-left: 5%;
+}
+.leftSubDesign{
+  font-weight: 600;
+  font-size: 1.6em;
+  margin-top: -2%;
+}
+.leftTextDesign{
+  font-size: 2.7em;
+  font-weight: 600;
+  font-family: "Inter";
+}
+@media (max-width:1289px) {
+  .leftTextDesign{
+    font-size: 2em !important;
+  }
+  .leftSubDesign{
+    font-size: 1.3em;
+  }
+  .leftDesign{
+    width:55%;
+    height:50%;
+  }
+  .cardHome{
+    width:71% !important;
+    overflow: visible;
+    height:60%;
+    /* border: 1px solid #c0bebe; */
+    display:flex;
+    margin: auto;
+    background-color:white;
+    padding: 2%;
+    padding-bottom: 9% !important;
+    border-radius: 25px 25px 25px 25px;
+    transform: translateY(-28%) !important;
+     flex-direction: row;
+    box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
+  }
+  .appImage{
+    width:30%;
+    height:65%
+  }
+}
+@media (max-width:990px) {
+  .leftSubDesign{
+    font-size: 1em;
+  }
+  .leftTextDesign{
+    font-size: 1.5em !important;
+  }
+  .leftDesign{
+    width:100%;
+    height:50%;
+    margin-left: 12%;
+  }
+  .cardHome{
+    width:71% !important;
+    overflow: visible;
+    height:60% !important;
+    /* border: 1px solid #c0bebe; */
+    display:flex;
+    margin: auto;
+    background-color:white;
+    padding: 2%;
+    padding-bottom: 9% !important;
+    border-radius: 25px 25px 25px 25px;
+    transform: translateY(-28%) !important;
+     flex-direction: row;
+    box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
+  }
+  .appImage{
+  display: none;
+  }
+}
+@media  (max-width: 485px) {
+  .leftTextDesign{
+    font-size: 1.4em !important;
+  }
+  .leftSubDesign{
+    font-size: 1em;
+  }
+  .cardHome{
+    width:71% !important;
+    overflow: visible;
+    height:60%;
+    /* border: 1px solid #c0bebe; */
+    display:flex;
+    margin: auto;
+    background-color: white;
+    padding: 2%;
+    padding-bottom: 18% !important;
+    border-radius: 25px 25px 25px 25px;
+    transform: translateY(-28%) !important;
+     flex-direction: row;
+    box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
+  }
   .LoginButton{
     width:6 !important;
     height: 6 !important;
     font-size: 0.6em !important;
    
+  }
+  .leftDesign{
+    width:100%;
+    height:50%;
+    margin-left: 10% !important;
+  }
+  .appImage{
+    display: none;
   }
   .homeImage img{
     transform-style: preserve-3d;
@@ -64,6 +181,13 @@ code {
   }
 }
 @media screen and (max-width: 475px) {
+  .leftTextDesign{
+    font-size: 1.2em !important;
+  }
+  .leftDesign{
+    width:100%;
+    height:50%;
+  }
   .LoginButton{
     width:5 !important;
     height: 5 !important;
@@ -78,6 +202,9 @@ code {
   }
   .loginContainer{
     margin-right: 1%;
+  }
+  .appImage{
+    display: none;
   }
 }
 
