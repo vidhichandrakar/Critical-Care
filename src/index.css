@@ -35,7 +35,7 @@ code {
   margin: auto;
   background-color: white;
   padding: 1%;
-  padding-bottom: 10%;
+  /* padding-bottom: 5%; */
   border-radius: 25px 25px 25px 25px;
   transform: translateY(-28%);
    flex-direction: row;
@@ -48,19 +48,51 @@ code {
   right:0;
   margin-right: 2%;
   width:27%;
-  height:82%}
-.rowDesign{
-}
+  height:89%}
+
 .leftDesign{
   width:70%;
   height:50%;
   text-align: left;
   margin-left: 5%;
 }
+.phoneTextField{
+  width:60%;
+  margin-top: 4% !important;
+  color: black !important;
+}
+.storeLogo{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+.appLogo{
+  width:120px;
+  height: 36px;
+}
+.googleLogo{
+  width:120px;
+  height: 36px;
+  margin-left: 3%;
+}
+
+.css-152mnda-MuiInputBase-input-MuiOutlinedInput-input{
+  color:#000 !important
+}
+.arrowIcon{
+  transform: rotate(275deg);
+  font-size: 2.2em !important;
+  color: #000;
+}
+.phoneTextFieldStartIcon{
+  color: #000 !important;
+  font-size: 1.3em;
+  font-weight: 500 !important;
+}
 .leftSubDesign{
   font-weight: 600;
   font-size: 1.6em;
-  margin-top: -2%;
+  /* margin-top: -2%; */
 }
 .leftTextDesign{
   font-size: 2.7em;
@@ -216,6 +248,7 @@ code {
    
   
   }
+  
   .logo{
     display: none;
     width: 150px !important;
@@ -226,17 +259,30 @@ code {
     margin-right: 1%;
   }
 }
-@media screen and (max-width: 340px) {
+@media  (max-width: 340px) {
   .LoginButton{
     width:1 !important;
     height: 1 !important;
     font-size: 0.5em !important;
   }
+  
   .logo{
     width: 100px !important;
     height: 20px !important;
   }
   .loginContainer{
     margin-right: 1%;
+  }
+}
+@media  (max-width: 379px) {
+  .appLogo{
+    width:80px !important;
+    height: 36px !important;
+  }
+  
+  .googleLogo{
+    width:80px !important;
+    height: 36px !important;
+    margin-left: 3%;
   }
 }
