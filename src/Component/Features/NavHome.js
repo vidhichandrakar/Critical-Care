@@ -2,7 +2,9 @@ import React, { Fragment } from "react";
 import Home from "../../Media/Images/Header_wallpaper.png";
 import AppImage from "../../Media/Images/home_top_img2.png";
 import { Box, InputAdornment, TextField, Typography } from "@mui/material";
-import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
+import ExpandCircleDownRoundedIcon from '@mui/icons-material/ExpandCircleDownRounded';
+import AppLogo from "../../Media/Images/App_Logo.jpg";
+import GoogleLogo from "../../Media/Images/Google_logo.png"
 export const NavHome =()=>{
   return(
    <Fragment>
@@ -18,20 +20,27 @@ export const NavHome =()=>{
       <TextField
         id="input-with-icon-textfield"
        placeholder="Enter Phone Number"
+       className="phoneTextField"
+       sx={{color:"#000"}}
         variant="outlined"
         InputProps={{
           startAdornment: (
             <InputAdornment position="start">
-             <p> +91 - </p>
+             <p className="phoneTextFieldStartIcon"> +91 - </p>
             </InputAdornment>
           ),
           endAdornment:(
             <InputAdornment position="end">
-              <ChevronRightRoundedIcon/>
+              <ExpandCircleDownRoundedIcon className="arrowIcon"/>
+             
             </InputAdornment>
           )
         }}
       />
+      <div className="storeLogo">
+      <img src={AppLogo} className="appLogo"/>
+      <img src={GoogleLogo} className="googleLogo"/>
+      </div>
      </div>
      <div className="divHomeImage"><img src={AppImage} className="appImage"/></div>
     </div>
