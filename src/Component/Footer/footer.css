@@ -1,6 +1,10 @@
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.text-color-white{
+    color: white;
 }
 *{
 	margin:0;
@@ -22,9 +26,7 @@ body{
     flex-direction: row;
     justify-content: right;
 }
-/* .align-item-center{
-    align-items: center;
-} */
+
 .fontWidth{
     font-weight: 700;
 }
@@ -55,9 +57,9 @@ body{
 ul{
 	list-style: none;
 }
-p{
+/* p{
     color: #ffffff;
-}
+} */
 .footer{
 	background-color: #000000;
     padding: 70px 0;

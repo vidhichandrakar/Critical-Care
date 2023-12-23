@@ -19,7 +19,8 @@ function Footer() {
                 width={250}
                 height={50}
               />
-              <p>
+                <h4 >For Enquiry :</h4>
+              <p className="text-color-white">
                 We understand that every student has different needs and
                 capabilities, which is why we create such a wonderful and unique
                 curriculum that is the best fit for every student.
@@ -76,14 +77,14 @@ function Footer() {
             <hr className="line" />
           </div>
           <div className="row">
-            <div className="col fontWidth">
+            <div className="col fontWidth text-color-white">
               <p >Terms and Condition |</p>
               <p className="margin-left">Privacy Policy |</p>
               <p className="margin-left">About Us |</p>
               <p className="margin-left">Contact Us </p>
             </div>
 
-            <p>
+            <p className="text-color-white">
               Copyright @{new Date().getFullYear()} 360 Critical Care. All
               Rights Reserved.
             </p>
