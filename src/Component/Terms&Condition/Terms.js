@@ -1,10 +1,13 @@
 import React from "react";
 import './Terms.css'
 import {TermsData} from "../../JsonData/Terms&Cond/Terms&Cond";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
 
 function Terms() {
   return (
     <div>
+       <Header/>
       <div className="text">
         <h1>{TermsData.one.topic}</h1>
         <p>{TermsData.one.detail}</p>
@@ -21,6 +24,7 @@ function Terms() {
         <h1>{TermsData.four.topic}</h1>
         <p >{TermsData.one.detail}</p>
       </div>
+      <Footer/>
     </div>
   );
 }
