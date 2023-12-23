@@ -4,10 +4,13 @@ import Logo from "../../Media/Images/Logo.png";
 import { AboutData } from "../../JsonData/AboutData/AboutData";
 import AppLogo from "../../Media/Images/App_Logo.jpg";
 import GoogleLogo from "../../Media/Images/Google_logo.png";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 function Aboutus() {
   return (
     <Fragment>
+      <Header />
       <div>
         <div className="Aboutbox box-col">
           <div className="width_margin textLeft">
@@ -77,6 +80,7 @@ function Aboutus() {
           </div>
         </div>
       </div>
+      <Footer/>
     </Fragment>
   );
 }
