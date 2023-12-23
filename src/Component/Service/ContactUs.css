@@ -4,7 +4,7 @@
 }
 .contactUsHeading{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: xx-large;
+    font-size: 500%;
     margin-top: 3%;
 }
 .contactHeading{
@@ -21,25 +21,38 @@
      text-align: left;
      padding: 2% 2%;
      font-family:Arial, Helvetica, sans-serif;
-     font-size: small;
+     font-size:xx-large;
 }
 
 .contactUs2_1{
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 39%;
      text-align: left;
      padding: 2% 2%;
      font-family:Arial, Helvetica, sans-serif;    
      font-size: small;
 }
 
+.contactUs2_2{
+    height: 90%;
+    width: 70%;
+}
+
+.text{
+    font-size: xx-large;
+}
+
+.criticalCareHead2_1{
+    font-size: 495%;
+}
+
 .contactEmailId{
     /* padding: 0%; */
     margin-top: 2%;
-    font-size: small;
+    font-size: xx-large;
     padding: 0px 0px;
-    width: 36%;
+    width: 79%;
     
 }
 
@@ -54,8 +67,8 @@
     /* margin-top: 2%; */
     border-radius: 12px;
     margin-left: 0%;
-    width: 36%;
-
+    width: 79%;
+    font-size: xx-large;
 }
 
 
@@ -67,7 +80,15 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.fAQHeading{
+    font-size: 480%;
+}
+
 .qna{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: xx-large;
+}
+
+.line{
+    padding: 1% 4%;
 }

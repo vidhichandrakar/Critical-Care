@@ -42,9 +42,10 @@ function ContactUs() {
 
         <hr />
 
-        <div className="contactUs2_1">
-          <h2 className="criticalCareHead2_1">360 Critical Care</h2>
+        <span className="contactUs2_1">
+          <div><h2 className="criticalCareHead2_1">360 Critical Care</h2></div>
 
+        <div className="text">
           <div>KLJ Noida one</div>
           <div>B 8, Block B, Industrial </div>
           <div>Area,Sector 62, Noida,Uttar</div>
@@ -62,11 +63,12 @@ function ContactUs() {
             {" "}
             Get Direction{" "}
           </button>
-        </div>
+          </div>
+        </span>
 
-        {/* <div className='contactUs2_2'>
-    <img src="" alt="Map will be displayed here" height="auto" width="100px"></img>
-</div> */}
+        <span className='contactUs2_2'>
+    <img src="https://maps.app.goo.gl/8TEn48DywpDzwSDMA" alt="Map will be displayed here"></img>
+       </span>
 
         <hr />
 
@@ -78,7 +80,7 @@ function ContactUs() {
               Q. How can I transfer my coaching centre from Pathshala to
               Vidyapeeth?{" "}
             </b>
-            <p>
+            <p className="line">
               There are clear instructions that you can not transfer coaching
               from Pathshala to Vidyapeeth or from Vidyapeeth to Pathshala.
               Pathshala is based on a hybrid classroom concept where the student
@@ -86,13 +88,13 @@ function ContactUs() {
               centre. At the same time, Vidhyapeeth is a complete offline
               classroom system.
             </p>
-            <hr />
+            <hr/>
             <b>
               {" "}
               Q. How can I transfer my coaching centre from Pathshala to
               Vidyapeeth?{" "}
             </b>
-            <p>
+            <p className="line">
               There are clear instructions that you can not transfer coaching
               from Pathshala to Vidyapeeth or from Vidyapeeth to Pathshala.
               Pathshala is based on a hybrid classroom concept where the student
@@ -100,13 +102,13 @@ function ContactUs() {
               centre. At the same time, Vidhyapeeth is a complete offline
               classroom system.
             </p>
-            <hr />
+            <hr/>
             <b>
               {" "}
               Q. How can I transfer my coaching centre from Pathshala to
               Vidyapeeth?{" "}
             </b>
-            <p>
+            <p className="line">
               There are clear instructions that you can not transfer coaching
               from Pathshala to Vidyapeeth or from Vidyapeeth to Pathshala.
               Pathshala is based on a hybrid classroom concept where the student
@@ -114,13 +116,13 @@ function ContactUs() {
               centre. At the same time, Vidhyapeeth is a complete offline
               classroom system.
             </p>
-            <hr />
+            <hr/>
             <b>
               {" "}
               Q. How can I transfer my coaching centre from Pathshala to
               Vidyapeeth?{" "}
             </b>
-            <p>
+            <p className="line">
               There are clear instructions that you can not transfer coaching
               from Pathshala to Vidyapeeth or from Vidyapeeth to Pathshala.
               Pathshala is based on a hybrid classroom concept where the student
@@ -128,13 +130,13 @@ function ContactUs() {
               centre. At the same time, Vidhyapeeth is a complete offline
               classroom system.
             </p>
-            <hr />
+            <hr/>
             <b>
               {" "}
               Q. How can I transfer my coaching centre from Pathshala to
               Vidyapeeth?{" "}
             </b>
-            <p>
+            <p className="line">
               There are clear instructions that you can not transfer coaching
               from Pathshala to Vidyapeeth or from Vidyapeeth to Pathshala.
               Pathshala is based on a hybrid classroom concept where the student
@@ -144,7 +146,7 @@ function ContactUs() {
             </p>
           </div>
 
-          <hr />
+          <hr/>
         </div>
       </div>
       <Footer />

@@ -6,13 +6,13 @@ import './PrivacyPolicy.css'
 function PrivacyPolicy() {
   return (
     <div className='allPrivacyPolicy'>
-      {/* <Header/> */}
+      <Header/>
 
       <div className='privacyPolicyHeading'> Privacy Policy</div>
  
 
  <div className='allExceptHeading'>
-      <p className='para'> Please read the following Privacy policy of the services made available on <button>www.pw.live</button> or the equivalent 
+      <p className='para'> Please read the following Privacy policy of the services made available on <button className='insideButton'>www.pw.live</button> or the equivalent 
 PW Mobile Application available on Google Play, ("PW App”/ “Website”). The PW App or Website on which 
 the Services are availed may together be referred to for convenience as the “Platform”.</p>
       <p className='para'>Please ensure that this Privacy Policy is perused by You before availing any services from Us. This Privacy 
@@ -32,20 +32,22 @@ forgoing, please do not continue to use or access our Website.</p>
      
      <div className='para'>
       <div><p>1.1 We collect certain information about You to help us serve You better. The information collected by Us is 
-of the following nature</p></div>
-      <p><ul type= "disc"></ul> Name</p>
-      <p><ul type= "disc"></ul> Telephone Number</p>
-      <p><ul type= "disc"></ul> Email Address</p>
-      <p><ul type= "disc"></ul> Service Address</p>
-      <p><ul type= "disc"></ul> Other information about the service address which You give Us</p>
-      <p><ul type= "disc"></ul> Your IP address</p>
-      <p><ul type= "disc"></ul> Information about your device</p>
-      <p><ul type= "disc"></ul> Network information</p>
-      <p><ul type= "disc"></ul> College/ Institution Details and location</p>
-      <p><ul type= "disc"></ul> User uploaded photo and IDs</p>
-      <p><ul type= "disc"></ul> Demographic information such as postcode, preferences and interests</p>
-      <p><ul type= "disc"></ul> Any other personal information which you give us in connection while booking a service or is relevant to 
-customer surveys and/or offers.</p></div>
+of the following nature</p></div>
+    <p><ul type= "disc">
+      <li>Name</li> 
+      <li> Telephone Number</li>
+      <li> Email Address</li>
+      <li> Service Address</li>
+      <li> Other information about the service address which You give Us</li>
+      <li> Your IP address</li>
+      <li> Information about your device</li>
+      <li> Network information</li>
+      <li> College/ Institution Details and location</li>
+      <li> User uploaded photo and IDs</li>
+      <li> Demographic information such as postcode, preferences and interests</li>
+      <li> Any other personal information which you give us in connection while booking a service or is relevant to 
+customer surveys and/or offers.</li>
+       </ul></p></div>
 
       
       <p className='para'>1.2 Information provided during Registration to create a profile and use this Website and services, you may 
@@ -68,7 +70,7 @@ your Account</p>
       <p>4. ensuring that the information submitted by you complies with our terms and conditions</p>
       <p>5. ensuring that the information provided by you is correct and updated from time to time.</p></div>
       
-    <p className='para'>1.6 You agree to immediately notify PW in writing by email to <button>support@pw.live </button> of any unauthorized use of 
+    <p className='para'>1.6 You agree to immediately notify PW in writing by email to <button className='insideButton'>support@pw.live </button> of any unauthorized use of 
 your Personal User Information or any other breach of security. PW is not and shall not be liable for any 
 harm arising from or relating to the theft of your Personal User Information that is under Your control, your 
 disclosure of your Personal User Information, or the use of your Personal User Information by another 
@@ -98,7 +100,7 @@ third parties. We do not control the use of cookies by third parties.</p>
 
 
 
-{/* <Footer/> */}
+<Footer/>
       
     </div>
   )
