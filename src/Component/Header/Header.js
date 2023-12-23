@@ -22,7 +22,8 @@ import ArchiveIcon from '@mui/icons-material/Archive';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import DropDown from './NestedMenu';
+import DropDown from  './NestedMenu';
+import {Link} from 'react-router-dom'
 
 
 const pages = ['All Courses','Contact Us','About Us'];
@@ -122,14 +123,14 @@ function Header() {
                 onClick={handleCloseNavMenu}
                 sx={{  color: 'black',fontFamily:"Inter" ,fontWeight:"600",marginLeft:"2%",fontSize:"1.1em",marginTop:"0.4%"}}
               >
-                About Us
+               <Link to="/About-us"  style={{ color: 'inherit', textDecoration: 'none'}}> About Us </Link>
               </Typography>
               <Typography
                 key={"3"}
                 onClick={handleCloseNavMenu}
                 sx={{  color: 'black',fontFamily:"Inter" ,fontWeight:"600",marginLeft:"2%",fontSize:"1.1em",marginTop:"0.4%"}}
               >
-                Contact Us
+               <Link to="/Contact-us"  style={{ color: 'inherit', textDecoration: 'none'}}> Contact Us</Link>
               </Typography>
            
           </Box>

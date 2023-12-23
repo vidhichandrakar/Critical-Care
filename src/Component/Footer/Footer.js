@@ -5,6 +5,7 @@ import GoogleLogo from "../../Media/Images/Google_logo.png";
 import fb from "../../Media/Images/fblogo.PNG";
 import AppLogo from "../../Media/Images/App_Logo.jpg";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import {Link} from 'react-router-dom';
 
 function Footer() {
   return (
@@ -77,11 +78,11 @@ function Footer() {
             <hr className="line" />
           </div>
           <div className="row">
-            <div className="col fontWidth text-color-white">
-              <p >Terms and Condition |</p>
-              <p className="margin-left">Privacy Policy |</p>
-              <p className="margin-left">About Us |</p>
-              <p className="margin-left">Contact Us </p>
+            <div className="col fontWidth text-color-white ">
+             <Link to="/Terms-&-Condition" style={{ color: 'inherit', textDecoration: 'none'}}> <p >Terms and Condition |</p></Link>
+             <Link to="/Privacy-policy" style={{ color: 'inherit', textDecoration: 'none'}}><p className="margin-left">Privacy Policy |</p></Link> 
+             <Link to="/About-us" style={{ color: 'inherit', textDecoration: 'none'}}><p className="margin-left">About Us |</p></Link> 
+             <Link to="/Contact-us" style={{ color: 'inherit', textDecoration: 'none'}}><p className="margin-left">Contact Us </p></Link> 
             </div>
 
             <p className="text-color-white">
