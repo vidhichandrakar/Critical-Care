@@ -4,6 +4,9 @@ import MainComponent from './Component/MainComponent/MainComponent';
 import { Route, Routes } from 'react-router-dom'
 import Aboutus from './Component/Aboutus/Aboutus';
 import Terms from './Component/Terms&Condition/Terms';
+import ContactUs from './Component/Service/ContactUs';
+import PrivacyPolicy from './Component/Service/PrivacyPolicy';
+
 function App() {
   return (
     <div className="App">
@@ -11,8 +14,8 @@ function App() {
         <Route path='/' Component={MainComponent}/>
         <Route path='/About-us' Component={Aboutus}/>
         <Route path='/Terms-&-Condition' Component={Terms}/>
-        <Route path='/Contact-us' Component={MainComponent}/>
-        <Route path='/Privacy-policy' Component={MainComponent}/>
+        <Route path='/Contact-us' Component={ContactUs}/>
+        <Route path='/Privacy-policy' Component={PrivacyPolicy }/>
       </Routes>
     </div>
   );
