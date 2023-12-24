@@ -5,6 +5,8 @@ import Footer from "../Footer/Footer";
 import Aboutus from '../Aboutus/Aboutus';
 import Terms from '../Terms&Condition/Terms'
 import CategoryBox from "../Features/CategoryBox";
+import Analytics from "../Features/AnalyticsInfo";
+import PlanDescription from "../Features/PlanDescription";
 
 
 const MainComponent = ()=>{
@@ -13,6 +15,8 @@ const MainComponent = ()=>{
       <Header/>
       <NavHome/>
       <CategoryBox/>
+      <Analytics/>
+      <PlanDescription/>
       <Footer />
     </Fragment>
   )
