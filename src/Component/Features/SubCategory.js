@@ -34,11 +34,11 @@ const SubCategory =({categorySelected})=>{
      return <Fragment>
       
   <Box className="subCatBox">
-    <Typography>
+    <Typography className="subCatHead">
       {data}
     </Typography>
-    <Typography>
-      bye
+    <Typography className="subCatSubHead">
+    Explore
     </Typography>
     </Box>
     {categoryType[categorySelected].length>2?<br/>:null}

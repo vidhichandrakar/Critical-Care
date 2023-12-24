@@ -9,7 +9,7 @@ import { DropdownMenuItem, DropdownNestedMenuItem } from "../Header/NestedDropdo
 import SubCategory from "./SubCategory";
 
 const CategoryBox = () => {
-  const [categorySelected,setCategorySelected]=useState("");
+  const [categorySelected,setCategorySelected]=useState("Category_One");
   const handleCategory=(category)=>{
     console.log(category)
     setCategorySelected(category)
@@ -21,7 +21,7 @@ const CategoryBox = () => {
         <div class="rowDesign">
         
         <div className="cardBox">  
-        <Box className="catDrop" >
+        <Box className={categorySelected==="Category_One"?"catDrop highlight":"catDrop"} >
             <DropdownNestedMenuItem label="DrNB/DM/IFCCM Critical Care" onClick={()=>handleCategory("Category_One")}
               rightIcon={<KeyboardArrowRightIcon />}
               menu={[
@@ -39,7 +39,7 @@ const CategoryBox = () => {
             </DropdownNestedMenuItem>
           </Box>
 
-          <Box className="catDrop" >
+          <Box className={categorySelected==="Category_Two"?"catDrop highlight":"catDrop"} >
             <DropdownNestedMenuItem label="EDIC" onClick={()=>handleCategory("Category_Two")}
               rightIcon={<KeyboardArrowRightIcon />}
               menu={[
@@ -56,7 +56,7 @@ const CategoryBox = () => {
               Delete <DeleteForeverIcon />
             </DropdownNestedMenuItem>
           </Box>
-          <Box className="catDrop" >
+          <Box className={categorySelected==="Category_Three"?"catDrop highlight":"catDrop"} >
             <DropdownNestedMenuItem label="IDCCM" onClick={()=>handleCategory("Category_Three")}
               rightIcon={<KeyboardArrowRightIcon />}
               menu={[
@@ -68,7 +68,7 @@ const CategoryBox = () => {
               Delete <DeleteForeverIcon />
             </DropdownNestedMenuItem>
           </Box>
-          <Box className="catDrop" >
+          <Box className={categorySelected==="Category_Four"?"catDrop highlight":"catDrop"} >
             <DropdownNestedMenuItem onClick={()=>handleCategory("Category_Four")}
               label="Other"
               rightIcon={<KeyboardArrowRightIcon />}
