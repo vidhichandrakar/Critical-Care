@@ -8,6 +8,11 @@ body {
 code {
   font-family:"Inter" !important ;
 }
+.static{
+  position: sticky !important;
+  top: 0 !important;
+  
+}
 .LoginButton{
   width:30;
   height: 30;
@@ -99,6 +104,46 @@ code {
   font-weight: 600;
   font-family: "Inter";
 }
+
+ /* Testimonials css start */
+
+ 
+ .TestimonialsCard{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+ }
+ .TestimonialsLeftCard{
+  margin: 50px;
+  background-color: rgb(243 243 243);;
+  width: 50%;
+  text-align: left;
+  font-size: 1.2rem;
+ }
+ .TestimonialsLeftCard p{
+  margin: 50px;
+ }
+ .TestimonialsLeftCard h3{
+  margin: 50px;
+ }
+
+ .TestimonialsRightCard{
+  background-color: grey;
+  width: 50%;
+ }
+.TestimonialsArrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* .Arrow{
+  margin: 0px 100px;
+} */
+
+ /* Testimonials css End */
+
+
 @media (max-width:1289px) {
   .leftTextDesign{
     font-size: 2em !important;

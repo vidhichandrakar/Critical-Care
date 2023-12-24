@@ -92,7 +92,7 @@ function Header() {
           
             </Menu>
           </Box>
-          <img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className='logo'  />
+         <Link to="/"><img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className='logo'  /></Link> 
         
         
           <Typography

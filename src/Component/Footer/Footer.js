@@ -14,13 +14,12 @@ function Footer() {
         <div class="container">
           <div class="row">
             <div class="footer-col w50">
-              <img
+              <Link to="/"><img
                 src={Logo}
                 sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
                 width={250}
                 height={50}
-              />
-                <h4 >For Enquiry :</h4>
+              /></Link>
               <p className="text-color-white">
                 We understand that every student has different needs and
                 capabilities, which is why we create such a wonderful and unique
