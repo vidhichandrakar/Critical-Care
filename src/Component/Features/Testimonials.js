@@ -5,7 +5,7 @@ import arrowleft from '../../Media/Images/arrow-left.png'
 function Testimonials() {
   return (
     <Fragment>
-      <div>
+      <div >
         <h3>Testimonials</h3>
         <h1>Hear It From The Masters</h1>
         <div className="TestimonialsCard">

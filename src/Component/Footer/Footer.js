@@ -16,7 +16,7 @@ function Footer() {
             <div class="footer-col w50">
               <Link to="/"><img
                 src={Logo}
-                sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+                sx={{ display: { xs: "none", md: "flex" }, mr: 0 }}
                 width={250}
                 height={50}
               /></Link>
