@@ -9,7 +9,7 @@ import { DropdownMenuItem, DropdownNestedMenuItem } from "../Header/NestedDropdo
 import SubCategory from "./SubCategory";
 
 const CategoryBox = () => {
-  const [categorySelected,setCategorySelected]=useState("");
+  const [categorySelected,setCategorySelected]=useState("Category_One");
   const handleCategory=(category)=>{
     console.log(category)
     setCategorySelected(category)
