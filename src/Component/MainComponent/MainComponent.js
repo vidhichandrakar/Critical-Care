@@ -18,7 +18,7 @@ const MainComponent = ()=>{
       <CategoryBox/>
       <Analytics/>
       <PlanDescription/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Footer />
     </Fragment>
   )
