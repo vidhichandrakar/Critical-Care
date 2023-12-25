@@ -1,15 +1,16 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import './PrivacyPolicy.css'
 
 function PrivacyPolicy() {
   return (
-    <div className='allPrivacyPolicy'>
-      <Header/>
+    <Fragment>
+      <Header />
+    <div className="allPrivacyPolicy">
+      
 
-      <div className='privacyPolicyHeading'> Privacy Policy</div>
- 
+      <div className="privacyPolicyHeading"> Privacy Policy</div>
 
  <div className='allExceptHeading'>
       <p className='para'> Please read the following Privacy policy of the services made available on <button className='insideButton'>www.pw.live</button> or the equivalent 
@@ -26,9 +27,11 @@ Privacy Policy, We will post those changes on this page so that You are always a
 We collect, how We use it, and under what circumstances We disclose it. If You do not agree for the 
 forgoing, please do not continue to use or access our Website.</p>
 
-      <div className='firstHeading'>
-           <p>1. Collection of Personally Identifiable Information</p>
-      </div>
+        <div className="firstHeading">
+          <p>1. Collection of Personally Identifiable Information</p>
+        </div>
+
+        
      
      <div className='para'>
       <div><p>1.1 We collect certain information about You to help us serve You better. The information collected by Us is 
@@ -96,14 +99,13 @@ permits, although in that case You may not be able to use certain features on th
 You may encounter "Cookies" or other similar devices on certain pages of the Website that are placed by 
 third parties. We do not control the use of cookies by third parties.</p>
 
-</div>
 
-
-
-<Footer/>
-      
+ </div>
     </div>
-  )
+    
+//  <Footer/> 
+    </Fragment>
+  );
 }
 
-export default PrivacyPolicy
+export default PrivacyPolicy;

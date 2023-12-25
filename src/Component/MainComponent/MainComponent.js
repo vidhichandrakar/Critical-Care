@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Header from "../Header/Header";
 import { NavHome } from "../Features/NavHome";
 import Footer from "../Footer/Footer";
+import Testimonials from "../Features/Testimonials";
 import Aboutus from '../Aboutus/Aboutus';
 import Terms from '../Terms&Condition/Terms'
 import CategoryBox from "../Features/CategoryBox";
@@ -17,6 +18,7 @@ const MainComponent = ()=>{
       <CategoryBox/>
       <Analytics/>
       <PlanDescription/>
+      <Testimonials/>
       <Footer />
     </Fragment>
   )
