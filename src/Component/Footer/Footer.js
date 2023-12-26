@@ -13,7 +13,7 @@ function Footer() {
       <footer class="footer">
         <div class="container">
           <div class="row">
-            <div class="footer-col w50 center">
+            <div class="footer-col  center">
               <Link to="/"><img
                 src={Logo}
                 sx={{ display: { xs: "none", md: "flex" }, mr: 0 }}

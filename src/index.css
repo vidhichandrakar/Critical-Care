@@ -58,7 +58,7 @@ code {
 }
 .homeImage img{
   transform-style: preserve-3d;
-   height:60vh !important;
+   height:80vh !important;
   width: 100%;
   z-index: 78 !important;
 }
@@ -77,8 +77,7 @@ code {
    flex-direction: row;
   box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
 }
-.divHomeImage{
-}
+
 .appImage{
   /* float: right; */position: absolute;
   right:0;
@@ -260,7 +259,6 @@ color: #0075FF;
 .rightBoxCat{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   min-width:100%;
   /* margin-left: 5%; */
   /* padding: 2%; */
@@ -337,7 +335,7 @@ color: #0075FF;
   border-radius: 25px 25px 25px 25px;
 }
 .liveFirst{
-  width: 27%;
+  width: 30%;
 }
 .liveText{
  color: #0075FF !important;
@@ -372,6 +370,12 @@ font-family: "Inter" !important;
  }
  .dotLine{
   width: 80%;
+ }
+ .NeetBox{
+  margin-top: 20px;
+ }
+ .NeetImg{
+  width:100%;
  }
 @media (max-width:1289px) {
   .leftTextDesign{
@@ -485,6 +489,17 @@ font-family: "Inter" !important;
   .loginContainer{
     margin-right: 1%;
   }
+  .liveBox {
+    flex-direction: column;
+    align-items: center;
+  }
+  .liveBoxrev{
+    flex-direction: column-reverse;
+  }
+  /* .rightBoxCat {
+    display: flex;
+    flex-direction: column !important;
+  } */
 }
 @media screen and (max-width: 475px) {
   .leftTextDesign{

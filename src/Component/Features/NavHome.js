@@ -5,7 +5,8 @@ import { Box, InputAdornment, TextField, Typography } from "@mui/material";
 import ExpandCircleDownRoundedIcon from '@mui/icons-material/ExpandCircleDownRounded';
 import AppLogo from "../../Media/Images/App_Logo.jpg";
 import GoogleLogo from "../../Media/Images/Google_logo.png"
-export const NavHome =()=>{
+
+const NavHome =()=>{
   return(
    <Fragment>
     <div className="homeImage">
@@ -47,3 +48,4 @@ export const NavHome =()=>{
     </Fragment> 
   )
 }
+export default NavHome;
