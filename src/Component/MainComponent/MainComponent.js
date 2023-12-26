@@ -20,7 +20,7 @@ const MainComponent = ()=>{
       <Analytics/>
       <PlanDescription/>
       <NeetGroupImg />
-      {/* <Testimonials/> */}
+      <Testimonials/>
       <Footer />
     </Fragment>
   )

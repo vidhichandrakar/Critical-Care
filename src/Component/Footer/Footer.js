@@ -48,7 +48,7 @@ function Footer() {
                 </a>
               </div>
               <div className="col">
-                <h4>Follow us :</h4>
+                <h4 className="text-color-white">Follow us :</h4>
                 <div>
                   <a href="#" className="sp">
                     <img src={fb} className="BR" />

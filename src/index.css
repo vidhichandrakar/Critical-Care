@@ -282,15 +282,28 @@ color: #0075FF;
 .analyticsCount{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin-top: 3%;
+}
+.analyticsCountbox{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  width: 50%;
+  margin: 20px;
 }
 .subTypo{
   font-size: 1.8em !important;
   margin-top: 1% !important;
 }
-.calBox{
- width:13% ;
+.calBox1{
+ width:25% ;
  margin-left: 10%;
+ font-family: "Inter";
+}
+.calBox2{
+ width:25% ;
+ margin-left: 28%;
  font-family: "Inter";
 }
 .calCount{
@@ -445,6 +458,12 @@ font-family: "Inter" !important;
   }
   .leftSubDesign{
     font-size: 1em;
+  }
+  .analyticsCount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
   }
   .cardHome{
     width:71% !important;
