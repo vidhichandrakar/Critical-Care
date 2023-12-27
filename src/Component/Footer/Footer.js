@@ -74,7 +74,7 @@ function Footer() {
             </div>
           </div>
           <div className="pad-line">
-            <hr className="line" />
+            <hr className="footerline" />
           </div>
           <div className="row">
             <div className="col fontWidth text-color-white ">
