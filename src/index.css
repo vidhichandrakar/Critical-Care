@@ -147,6 +147,14 @@ code {
   width: 100%;
  }
 
+ @media (max-width:1180px) and (min-width:820px) {
+  .TestimonialMain{
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+ }
+
  .TestimonialsHeading{
   font-size: xx-large;
   margin-top: 7%;
@@ -169,8 +177,8 @@ code {
   }
 
  .theMasters{
-  /* color: linear-gradient(to right, rgba(#6E72FC, #AD1DEB)) !important; */
-  color: red;
+  color: linear-gradient(45deg, rgba(#6E72FC, #AD1DEB)) !important;
+  
  }
 
  .TestimonialsCard{
@@ -269,9 +277,9 @@ code {
 margin-top: 4px !important;
 color: #0075FF;
 }
-.catDrop{
+/* .catDrop{ */
    
-}
+/* } */
 .catDrop .css-1spzyyw-MuiButtonBase-root-MuiMenuItem-root{
   font-family: "Inter" !important;
   font-weight: bold !important;
