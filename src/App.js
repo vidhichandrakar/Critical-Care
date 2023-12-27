@@ -10,9 +10,8 @@ import PrivacyPolicy from './Component/Service/PrivacyPolicy';
 function App() {
   return (
     <div className="App">
-      {/* <MainComponent/> */}
       <Routes>
-        <Route path='/' Component={MainComponent}/>
+        <Route path='/Critical-Care' Component={MainComponent}/>
         <Route path='/About-us' Component={Aboutus}/>
         <Route path='/Terms-&-Condition' Component={Terms}/>
         <Route path='/Contact-us' Component={ContactUs}/>
