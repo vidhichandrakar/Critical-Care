@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Critical-Care/static/css/main.1ff40211.css",
+    "main.js": "/Critical-Care/static/js/main.1ba0c1a7.js",
+    "static/js/787.d6e3ad33.chunk.js": "/Critical-Care/static/js/787.d6e3ad33.chunk.js",
+    "static/media/description.png": "/Critical-Care/static/media/description.941325776d756f978bac.png",
+    "static/media/Header_wallpaper.png": "/Critical-Care/static/media/Header_wallpaper.d69b6e1c47c75a4fa19c.png",
+    "static/media/Live Scheduled Lectures.svg": "/Critical-Care/static/media/Live Scheduled Lectures.3e3ff910dad8b6fe10c817675eb3175a.svg",
+    "static/media/home_top_img2.png": "/Critical-Care/static/media/home_top_img2.057a1f7bc37032f90a7e.png",
+    "static/media/Logo.png": "/Critical-Care/static/media/Logo.05d8ae60343f8e546e49.png",
+    "static/media/App_Logo.jpg": "/Critical-Care/static/media/App_Logo.0ed67c291e049cce0e57.jpg",
+    "static/media/Google_logo.png": "/Critical-Care/static/media/Google_logo.908050ef02ca97b23c82.png",
+    "static/media/dotted-line-1.svg": "/Critical-Care/static/media/dotted-line-1.c9b2eb029bc1fab7af8a7386dbc7668e.svg",
+    "static/media/dotted-line-2.svg": "/Critical-Care/static/media/dotted-line-2.64e3a8aef77e6f348a5807cb238ffadb.svg",
+    "static/media/fblogo.PNG": "/Critical-Care/static/media/fblogo.4cfa31aba14b2251cd53.PNG",
+    "static/media/logo.svg": "/Critical-Care/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Critical-Care/index.html",
+    "main.1ff40211.css.map": "/Critical-Care/static/css/main.1ff40211.css.map",
+    "main.1ba0c1a7.js.map": "/Critical-Care/static/js/main.1ba0c1a7.js.map",
+    "787.d6e3ad33.chunk.js.map": "/Critical-Care/static/js/787.d6e3ad33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ff40211.css",
+    "static/js/main.1ba0c1a7.js"
+  ]
+}
