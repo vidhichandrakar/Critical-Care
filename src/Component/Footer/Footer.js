@@ -13,7 +13,7 @@ function Footer() {
       <footer class="footer">
         <div class="container">
           <div class="row">
-            <div class="footer-col w50">
+            <div class="footer-col  center">
               <Link to="/"><img
                 src={Logo}
                 sx={{ display: { xs: "none", md: "flex" }, mr: 0 }}
@@ -26,8 +26,8 @@ function Footer() {
                 curriculum that is the best fit for every student.
               </p>
             </div>
-            <div class="footer-col ">
-              <div className="col pad-line">
+            <div class="footer-col center">
+              <div className="colFooterUpper pad-line">
                <a href='#'>
                 <img
                   src={GoogleLogo}
@@ -48,7 +48,7 @@ function Footer() {
                 </a>
               </div>
               <div className="col">
-                <h4>Follow us :</h4>
+                <h4 className="text-color-white">Follow us :</h4>
                 <div>
                   <a href="#" className="sp">
                     <img src={fb} className="BR" />
