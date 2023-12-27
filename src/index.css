@@ -135,21 +135,69 @@ code {
   font-family: "Inter";
 }
 
+
+
+
+
  /* Testimonials css start */
 
- 
+ .TestimonialsMain{
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+ }
+
+ .TestimonialsHeading{
+  font-size: xx-large;
+  margin-top: 7%;
+ }
+
+ .boxUnderHeading{
+  width: 16%;
+  /* height: 0.5%; */
+  align-items: center;
+  justify-content: center;
+  margin-left: 42%;
+  /* color: rgb(54, 54, 166); */
+ }
+
+ .secondHeading{
+  font-size: 50px;
+  font-weight: 400%;
+  margin-top: 1.5%;
+  
+  }
+
+ .theMasters{
+  /* color: linear-gradient(to right, rgba(#6E72FC, #AD1DEB)) !important; */
+  color: red;
+ }
+
  .TestimonialsCard{
   display: flex;
   flex-direction: row;
-  margin: 20px;
+  margin: 0 100px;
  }
  .TestimonialsLeftCard{
-  margin: 50px;
-  background-color: rgb(243 243 243);;
-  width: 50%;
+  margin: 35px;
+  background-color: rgb(243 243 243);
+  height: 34%;
+  width: 45%;
   text-align: left;
   font-size: 1.2rem;
+  padding: 0% 0;
  }
+
+ .testimonialPara{
+  font-size: larger;
+  padding-bottom: 1%;
+  height: 39vh;
+ }
+
+ .names{
+  margin-top: 0%;
+ }
+
  .TestimonialsLeftCard p{
   margin: 50px;
  }
@@ -166,10 +214,27 @@ code {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /* margin-bottom: 2%; */
 }
-/* .Arrow{
-  margin: 0px 100px;
-} */
+.Arrow{
+  /* margin: 0px 100px; */
+  height: 37vh;
+  width: 30vw;
+  padding: 0% 0%;
+  margin: 0% -10%;
+}
+
+.Arrow img{
+  width: 180px;
+}
+
+.arrow1{
+  margin-right: 22%;
+}
+.arrow2{
+   width: 34%;
+   margin-left: 20%;
+}
 
  /* Testimonials css End */
 

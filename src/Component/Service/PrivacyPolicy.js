@@ -1,17 +1,19 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import './PrivacyPolicy.css'
 
 function PrivacyPolicy() {
   return (
-    <div className="allPrivacyPolicy">
+    <Fragment>
       <Header />
+    <div className="allPrivacyPolicy">
+      
 
       <div className="privacyPolicyHeading"> Privacy Policy</div>
 
  <div className='allExceptHeading'>
-      <p className='para'> Please read the following Privacy policy of the services made available on <button>www.pw.live</button> or the equivalent 
+      <p className='para'> Please read the following Privacy policy of the services made available on <button className='insideButton'>www.pw.live</button> or the equivalent 
 PW Mobile Application available on Google Play, ("PW App”/ “Website”). The PW App or Website on which 
 the Services are availed may together be referred to for convenience as the “Platform”.</p>
       <p className='para'>Please ensure that this Privacy Policy is perused by You before availing any services from Us. This Privacy 
@@ -29,201 +31,26 @@ forgoing, please do not continue to use or access our Website.</p>
           <p>1. Collection of Personally Identifiable Information</p>
         </div>
 
-        <div>
-          <p>
-            1.1 We collect certain information about You to help us serve You
-            better. The information collected by Us is of the following nature
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> Name
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> Telephone Number
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> Email Address
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> Service Address
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> Other information about the service address
-            which You give Uy
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> Your IP address
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> Information about your device
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> Network information
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> College/ Institution Details and location
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> User uploaded photo and IDs
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> Demographic information such as postcode,
-            preferences and interests
-          </p>
-        </div>
-        <div>
-          <p>
-            <ul type="disc"></ul> Any other personal information which you give
-            us in connection while booking a service or is relevant to customer
-            surveys and/or offers.
-          </p>
-        </div>
-
-        <p>
-          1.2 Information provided during Registration to create a profile and
-          use this Website and services, you may be asked to provide the
-          following information: your name, your username, password, email
-          address, the speciality in which you practice or intend to practice
-          (selected from a drop-down menu if applicable), year of graduation or
-          year of joining undergraduate medical program and the name of your
-          college or university. You may also choose to provide a picture to be
-          associated with your profile
-        </p>
-        <p>
-          1.3 We also provide an option to register using Facebook. If you
-          select this option, you allow us to access your profile information
-          including the list of your friends. Please note that if you register
-          to the Platform through Facebook, You shall be subject to the Terms &
-          Conditions and Privacy Policy of Facebook.
-        </p>
-        <p>
-          1.4 We will store your username, country and specialty on an
-          unencrypted server. Your password is cryptographically hashed and your
-          email address is encrypted. These information elements are referred to
-          collectively as your “Personal User Information.” We collect and hold
-          this information for the purpose of administering your use of the
-          Application.
-        </p>
-        <div>
-          <p>1.5 You are solely responsible for</p>
-        </div>
-        <div>
-          <p>
-            1. maintaining the strict confidentiality of your Personal User
-            Information
-          </p>
-        </div>
-        <div>
-          <p>
-            2. not allowing another person to use your Personal User Information
-            to access the Services
-          </p>
-        </div>
-        <div>
-          <p>
-            3. any and all damages or losses that may be incurred or suffered as
-            a result of any activities that occur in your Account
-          </p>
-        </div>
-        <div>
-          <p>
-            4. ensuring that the information submitted by you complies with our
-            terms and conditions
-          </p>
-        </div>
-        <div>
-          <p>
-            5. ensuring that the information provided by you is correct and
-            updated from time to time.
-          </p>
-        </div>
-
-        <p>
-          1.6 You agree to immediately notify PW in writing by email to
-          support@pw.live of any unauthorized use of your Personal User
-          Information or any other breach of security. PW is not and shall not
-          be liable for any harm arising from or relating to the theft of your
-          Personal User Information that is under Your control, your disclosure
-          of your Personal User Information, or the use of your Personal User
-          Information by another person or entity.
-        </p>
-        <p>
-          1.7 On receiving personal information about You, You no longer remain
-          anonymous to Us. We may use this information to do internal research
-          on demographics, interests, and behaviour to better understand,
-          protect and serve our customers. This information is compiled and
-          analysed on an aggregated basis. We indicate fields that are mandatory
-          required to be filled and fields that are optional. You may decide
-          whether or not to provide such information to Us.
-        </p>
-        <p>
-          1.8 You may choose not to provide us with any personal information or
-          information as required to provide any Services. If we do not receive
-          information required, we may choose not to provide you with such
-          Service. Service shall have the meaning attributed to the phrase in
-          the Terms of Use.
-        </p>
-        <p>
-          1.9 On our Website, you can browse without telling Us who you are or
-          revealing any personal information about Yourself. We may
-          automatically track certain information about You based on Your
-          behaviour on our Website. This information may include the URL that
-          You just came from (whether this URL is on our Website or not), which
-          URL You next go to (whether this URL is on our Website or not), Your
-          browser information, and Your IP address.
-        </p>
-        <p>
-          1.10 On our Websites, We use data collection devices such as "cookies"
-          on certain pages to help analyse our web page flow, measure
-          promotional effectiveness, and promote trust and safety. "Cookies" are
-          small files placed on your hard drive that assist Us in providing our
-          services. We offer certain features that are only available through
-          the use of a "cookie". You are always free to decline our cookies if
-          Your browser permits, although in that case You may not be able to use
-          certain features on the Websites. Additionally, You may encounter
-          "Cookies" or other similar devices on certain pages of the Website
-          that are placed by third parties. We do not control the use of cookies
-          by third parties.
-        </p>
-      </div>
+        
      
      <div className='para'>
       <div><p>1.1 We collect certain information about You to help us serve You better. The information collected by Us is 
-of the following nature</p></div>
-      <p><ul type= "disc"></ul> Name</p>
-      <p><ul type= "disc"></ul> Telephone Number</p>
-      <p><ul type= "disc"></ul> Email Address</p>
-      <p><ul type= "disc"></ul> Service Address</p>
-      <p><ul type= "disc"></ul> Other information about the service address which You give Us</p>
-      <p><ul type= "disc"></ul> Your IP address</p>
-      <p><ul type= "disc"></ul> Information about your device</p>
-      <p><ul type= "disc"></ul> Network information</p>
-      <p><ul type= "disc"></ul> College/ Institution Details and location</p>
-      <p><ul type= "disc"></ul> User uploaded photo and IDs</p>
-      <p><ul type= "disc"></ul> Demographic information such as postcode, preferences and interests</p>
-      <p><ul type= "disc"></ul> Any other personal information which you give us in connection while booking a service or is relevant to 
-customer surveys and/or offers.</p></div>
+of the following nature</p></div>
+    <p><ul type= "disc">
+      <li>Name</li> 
+      <li> Telephone Number</li>
+      <li> Email Address</li>
+      <li> Service Address</li>
+      <li> Other information about the service address which You give Us</li>
+      <li> Your IP address</li>
+      <li> Information about your device</li>
+      <li> Network information</li>
+      <li> College/ Institution Details and location</li>
+      <li> User uploaded photo and IDs</li>
+      <li> Demographic information such as postcode, preferences and interests</li>
+      <li> Any other personal information which you give us in connection while booking a service or is relevant to 
+customer surveys and/or offers.</li>
+       </ul></p></div>
 
       
       <p className='para'>1.2 Information provided during Registration to create a profile and use this Website and services, you may 
@@ -246,7 +73,7 @@ your Account</p>
       <p>4. ensuring that the information submitted by you complies with our terms and conditions</p>
       <p>5. ensuring that the information provided by you is correct and updated from time to time.</p></div>
       
-    <p className='para'>1.6 You agree to immediately notify PW in writing by email to <button>support@pw.live </button> of any unauthorized use of 
+    <p className='para'>1.6 You agree to immediately notify PW in writing by email to <button className='insideButton'>support@pw.live </button> of any unauthorized use of 
 your Personal User Information or any other breach of security. PW is not and shall not be liable for any 
 harm arising from or relating to the theft of your Personal User Information that is under Your control, your 
 disclosure of your Personal User Information, or the use of your Personal User Information by another 
@@ -272,13 +99,12 @@ permits, although in that case You may not be able to use certain features on th
 You may encounter "Cookies" or other similar devices on certain pages of the Website that are placed by 
 third parties. We do not control the use of cookies by third parties.</p>
 
-</div>
 
-
-
-//  <Footer/> 
-      
+ </div>
+    </div>
     
+//  <Footer/> 
+    </Fragment>
   );
 }
 
