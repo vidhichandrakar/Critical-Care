@@ -16,7 +16,7 @@ function Testimonials() {
         <h1 className="secondHeading">
          <span className="hereItFrom">Hear It From </span>
          <span className="theMasters"> The Masters</span>
-         </h1>
+        </h1>
 
         <div className="TestimonialsCard">
           <div className="TestimonialsLeftCard">
@@ -43,8 +43,8 @@ function Testimonials() {
         </div>
 
         <div className="TestimonialsArrow">
-            <span className="Arrow"><img src={arrowleft}/></span>
-            <span className="Arrow"><img src={arrowright}/></span>
+            <span className="Arrow"><img src={arrowleft} className="arrow1"/></span>
+            <span className="Arrow"><img src={arrowright} className="arrow2"/></span>
           </div>
       </div>
     </Fragment>
