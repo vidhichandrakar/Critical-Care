@@ -47,10 +47,10 @@ function Header() {
 
  
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
+    <AppBar position="static" className='AppHeader'>
+      <Container maxWidth="xl" >
         <Toolbar disableGutters>
-        <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+        <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }} >
             <IconButton
               size="large"
               aria-label="account of current user"
