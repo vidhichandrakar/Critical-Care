@@ -10,14 +10,13 @@ import PrivacyPolicy from './Component/Service/PrivacyPolicy';
 function App() {
   return (
     <div className="App">
-      <MainComponent/>
-      {/* <Routes>
+      <Routes>
         <Route path='/' Component={MainComponent}/>
         <Route path='/About-us' Component={Aboutus}/>
         <Route path='/Terms-&-Condition' Component={Terms}/>
         <Route path='/Contact-us' Component={ContactUs}/>
         <Route path='/Privacy-policy' Component={PrivacyPolicy }/>
-      </Routes> */}
+      </Routes>
     </div>
   );
 }
