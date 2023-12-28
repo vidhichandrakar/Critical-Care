@@ -163,14 +163,11 @@ code {
   /* height: 100% !important; */
   }
   .TestimonialsLeftCard{
-    /* width:50%; */
-    /* height: 89% !important; */
     margin: 35px 17px;
     background-color: rgb(243 243 243);
     height: 34%;
     width: 45%;
     text-align: left;
-    /* font-size: 1.2rem; */
     font-size: 0.9rem;
     padding: 0% 0;
   }
@@ -193,11 +190,8 @@ code {
 
  .boxUnderHeading{
   width: 16%;
-  /* height: 0.5%; */
   align-items: center;
   justify-content: center;
-  margin-left: 42%;
-  /* color: rgb(54, 54, 166); */
  }
 
  .secondHeading{
@@ -220,12 +214,10 @@ code {
  .TestimonialsLeftCard{
   margin: 35px 36px;
   background-color: rgb(243 243 243);
-  /* height: 34vh; */
   width: 45%;
   text-align: left;
   font-size: 1.2rem;
   font-weight:300;
-  /* font-size: 0.9rem; */
   padding: 0% 0;
  }
 
@@ -255,19 +247,17 @@ code {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 2%; */
-}
-.Arrow{
-  /* margin: 0px 100px; */
-  height: 37vh;
-  width: 30vw;
-  padding: 0% 0%;
-  margin: 0% -10%;
 }
 
-.Arrow img{
+
+.Arrow1 img{
   width: 180px;
 }
+.Arrow2 img{
+  width: 180px;
+}
+
+
 
 .arrow1{
   margin-right: 22%;
@@ -567,6 +557,14 @@ font-family: "Inter" !important;
   }
   .paddingDropdown {
     padding: 0px !important;
+  }
+  .wrap1-text-50-archiver {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100ch;
+    width: 280px !important;
   }
 }
 @media  (max-width: 484px) {

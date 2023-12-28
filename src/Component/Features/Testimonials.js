@@ -20,7 +20,7 @@ function Testimonials() {
 
         <div className="TestimonialsCard">
           <div className="TestimonialsLeftCard">
-            <p className="testimonialPara">
+            <p className="testimonialPara wrap1-text-50-archiver">
               360 Critical Care has been a great contributor to the development
               of my personality. I’ve been following Sanat sir for the past two
               years. I also took local tuition, but I want to give full credit
@@ -32,7 +32,7 @@ function Testimonials() {
             <h3 className="names">Harshil Paresh Kumar Khatri</h3>
           </div>
           <div className="TestimonialsLeftCard">
-            <p className="testimonialPara">
+            <p className="testimonialPara wrap1-text-50-archiver">
               360CC is a place where you can find an amalgamation of learning. I
               feel great because I only studied through 360 Critical Care, and
               because I am from a remote location of Uttarakhand, I had no other
@@ -42,9 +42,10 @@ function Testimonials() {
           </div>
         </div>
 
+       
         <div className="TestimonialsArrow">
-            <span className="Arrow"><img src={arrowleft} className="arrow1"/></span>
-            <span className="Arrow"><img src={arrowright} className="arrow2"/></span>
+            <div className="Arrow1"><img src={arrowleft} /></div>
+            <div className="Arrow2"><img src={arrowright} /></div>
           </div>
       </div>
     </Fragment>
