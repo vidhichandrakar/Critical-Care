@@ -189,9 +189,8 @@ code {
  }
 
  .boxUnderHeading{
-  width: 16%;
-  align-items: center;
-  justify-content: center;
+  width: 20%;
+  margin-left: 40%;
  }
 
  .secondHeading{
