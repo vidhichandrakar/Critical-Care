@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Critical-Care/static/css/main.31759541.css",
-    "main.js": "/Critical-Care/static/js/main.be1ccc5f.js",
+    "main.css": "/Critical-Care/static/css/main.abc2a6dc.css",
+    "main.js": "/Critical-Care/static/js/main.67aaabae.js",
     "static/js/787.d6e3ad33.chunk.js": "/Critical-Care/static/js/787.d6e3ad33.chunk.js",
     "static/media/description.png": "/Critical-Care/static/media/description.941325776d756f978bac.png",
     "static/media/Header_wallpaper.png": "/Critical-Care/static/media/Header_wallpaper.d69b6e1c47c75a4fa19c.png",
@@ -16,12 +16,12 @@
     "static/media/fblogo.PNG": "/Critical-Care/static/media/fblogo.4cfa31aba14b2251cd53.PNG",
     "static/media/logo.svg": "/Critical-Care/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Critical-Care/index.html",
-    "main.31759541.css.map": "/Critical-Care/static/css/main.31759541.css.map",
-    "main.be1ccc5f.js.map": "/Critical-Care/static/js/main.be1ccc5f.js.map",
+    "main.abc2a6dc.css.map": "/Critical-Care/static/css/main.abc2a6dc.css.map",
+    "main.67aaabae.js.map": "/Critical-Care/static/js/main.67aaabae.js.map",
     "787.d6e3ad33.chunk.js.map": "/Critical-Care/static/js/787.d6e3ad33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31759541.css",
-    "static/js/main.be1ccc5f.js"
+    "static/css/main.abc2a6dc.css",
+    "static/js/main.67aaabae.js"
   ]
 }
