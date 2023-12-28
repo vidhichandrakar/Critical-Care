@@ -145,11 +145,50 @@ code {
   margin-top: 100px;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
+  /* margin: 36px 45px; */
+ }
+
+ @media (max-width:1280px) {
+  .TestimonialsMain{
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+  }
+  .TestimonialsCard{
+    display: flex;
+  flex-direction: row;
+  margin: 0 100px;
+  /* width: 85%; */
+  /* height: 100% !important; */
+  }
+  .TestimonialsLeftCard{
+    /* width:50%; */
+    /* height: 89% !important; */
+    margin: 35px 17px;
+    background-color: rgb(243 243 243);
+    height: 34%;
+    width: 45%;
+    text-align: left;
+    /* font-size: 1.2rem; */
+    font-size: 0.9rem;
+    padding: 0% 0;
+  }
+  .arrow2{
+    margin-left: 106%;
+  }
+
+  .testimonialPara{
+    font-size: xx-large;
+    padding-bottom: 1%;
+    height: 39vh;
+   }
+  
  }
 
  .TestimonialsHeading{
   font-size: xx-large;
-  margin-top: 7%;
+  margin-top: 2%;
  }
 
  .boxUnderHeading{
@@ -169,8 +208,8 @@ code {
   }
 
  .theMasters{
-  /* color: linear-gradient(to right, rgba(#6E72FC, #AD1DEB)) !important; */
-  color: red;
+  color: linear-gradient(45deg, rgba(#6E72FC, #AD1DEB)) !important;
+  
  }
 
  .TestimonialsCard{
@@ -179,17 +218,19 @@ code {
   margin: 0 100px;
  }
  .TestimonialsLeftCard{
-  margin: 35px;
+  margin: 35px 36px;
   background-color: rgb(243 243 243);
   /* height: 34vh; */
   width: 45%;
   text-align: left;
   font-size: 1.2rem;
+  font-weight:300;
+  /* font-size: 0.9rem; */
   padding: 0% 0;
  }
 
  .testimonialPara{
-  font-size: larger;
+  font-size:1.2rem;
   padding-bottom: 1%;
   height: 39vh;
  }
@@ -199,10 +240,10 @@ code {
  }
 
  .TestimonialsLeftCard p{
-  margin: 50px;
+  margin: 36px 23px;
  }
  .TestimonialsLeftCard h3{
-  margin: 50px;
+  margin: 36px 23px;
  }
 
  .TestimonialsRightCard{
@@ -230,10 +271,17 @@ code {
 
 .arrow1{
   margin-right: 22%;
+  /* float: right; */
+  /* width: 34%;   */
+  /* margin-right: -34%; */
+
 }
 .arrow2{
    width: 34%;
    margin-left: 20%;
+   /* float: left; */
+   /* width: 50%;
+   margin-left: 20%; */
 }
 
  /* Testimonials css End */
@@ -269,9 +317,9 @@ code {
 margin-top: 4px !important;
 color: #0075FF;
 }
-.catDrop{
+/* .catDrop{ */
    
-}
+/* } */
 .catDrop .css-1spzyyw-MuiButtonBase-root-MuiMenuItem-root{
   font-family: "Inter" !important;
   font-weight: bold !important;
