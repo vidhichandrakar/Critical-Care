@@ -181,7 +181,7 @@ code {
  .TestimonialsLeftCard{
   margin: 35px;
   background-color: rgb(243 243 243);
-  height: 34%;
+  /* height: 34vh; */
   width: 45%;
   text-align: left;
   font-size: 1.2rem;
