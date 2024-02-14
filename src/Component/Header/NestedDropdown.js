@@ -41,7 +41,8 @@ export const Dropdown = React.forwardRef(
       if (
         anchorRef.current &&
         anchorRef.current.contains(event.target)
-      ) {
+      )
+       {
         return;
       }
 

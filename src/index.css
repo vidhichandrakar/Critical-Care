@@ -285,11 +285,6 @@ code {
   margin-top:3%;
   
 }
-
-.category{
-  /* width: 100%; */
-  /* margin-left: 12%; */
-}
 .rowDesign{
   display: flex;
   flex-direction: row;
@@ -306,9 +301,7 @@ code {
 margin-top: 4px !important;
 color: #0075FF;
 }
-/* .catDrop{ */
-   
-/* } */
+
 .catDrop .css-1spzyyw-MuiButtonBase-root-MuiMenuItem-root{
   font-family: "Inter" !important;
   font-weight: bold !important;
