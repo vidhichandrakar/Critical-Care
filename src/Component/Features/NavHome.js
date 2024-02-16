@@ -6,7 +6,14 @@ import ExpandCircleDownRoundedIcon from '@mui/icons-material/ExpandCircleDownRou
 import AppLogo from "../../Media/Images/App_Logo.jpg";
 import GoogleLogo from "../../Media/Images/Google_logo.png"
 
+
+
+
+
+
 const NavHome =()=>{
+  
+ 
   return(
    <Fragment>
     <div className="homeImage">
@@ -45,6 +52,10 @@ const NavHome =()=>{
      </div>
      <div className="divHomeImage"><img src={AppImage} className="appImage"/></div>
     </div>
+
+
+   
+  
     </Fragment> 
   )
 }

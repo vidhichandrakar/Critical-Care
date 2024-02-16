@@ -77,7 +77,7 @@ function Footer() {
             <hr className="footerline" />
           </div>
           <div className="row">
-            <div className="col fontWidth text-color-white ">
+            <div className="flexcol fontWidth text-color-white ">
              <Link to="/Terms-&-Condition" style={{ color: 'inherit', textDecoration: 'none'}}> <p >Terms and Condition |</p></Link>
              <Link to="/Privacy-policy" style={{ color: 'inherit', textDecoration: 'none'}}><p className="margin-left">Privacy Policy |</p></Link> 
              <Link to="/About-us" style={{ color: 'inherit', textDecoration: 'none'}}><p className="margin-left">About Us |</p></Link> 

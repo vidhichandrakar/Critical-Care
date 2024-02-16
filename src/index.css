@@ -158,7 +158,8 @@ code {
   .TestimonialsCard{
     display: flex;
   flex-direction: row;
-  margin: 0 100px;
+  margin: auto;
+  justify-content: center;
   /* width: 85%; */
   /* height: 100% !important; */
   }
@@ -208,7 +209,8 @@ code {
  .TestimonialsCard{
   display: flex;
   flex-direction: row;
-  margin: 0 100px;
+  margin: auto;
+  justify-content: center;
  }
  .TestimonialsLeftCard{
   margin: 35px 36px;
@@ -375,10 +377,9 @@ color: #0075FF;
 
 }
 .analyticsCount{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
 }
 /* .analyticsCountbox{
   display: flex;
@@ -391,17 +392,6 @@ color: #0075FF;
   font-size: 1.8em !important;
   margin-top: 1% !important;
 }
-.calBox1{
- width:25% ;
- margin-left: 10%;
- font-family: "Inter";
-}
-.calBox2{
- width:25% ;
- margin-left: 10%;
- font-family: "Inter";
-}
-
 .calCount{
   font-size: 3em ;
   font-weight: 600;
@@ -567,10 +557,7 @@ font-family: "Inter" !important;
     font-size: 1em;
   }
   .analyticsCount{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 3%;
+    grid-template-columns: 1fr 1fr;
   }
   .calBox2 {
     margin-top: -34px;
@@ -655,6 +642,9 @@ font-family: "Inter" !important;
     margin-right: 1%;
   }
   .appImage{
+    display: none;
+  }
+  .cardRight{
     display: none;
   }
 }

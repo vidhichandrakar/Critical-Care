@@ -9,6 +9,16 @@
   pointer-events: none;
 }
 
+.colorblack{
+  color: #000000;
+}
+.carousel-item img{
+  width: 76% !important;
+  height: 50vh;
+  border-radius: 15px;
+  margin: auto !important;
+  margin-top: 50px !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

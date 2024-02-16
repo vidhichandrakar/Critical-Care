@@ -22,7 +22,7 @@ const CategoryBox = () => {
         
         <div className="cardBox">  
         <Box className={categorySelected==="Category_One"?"catDrop highlight":"catDrop"} >
-            <DropdownNestedMenuItem label="DrNB/DM/IFCCM Critical Care" onClick={()=>handleCategory("Category_One")}
+            <DropdownNestedMenuItem label="DrNB/DM/IFCCM" onClick={()=>handleCategory("Category_One")}
               rightIcon={<KeyboardArrowRightIcon />}
               menu={[
                 <DropdownMenuItem onClick={() => { }}>

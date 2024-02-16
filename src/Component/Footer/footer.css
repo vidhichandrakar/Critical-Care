@@ -26,6 +26,12 @@ body {
   flex-direction: row;
   justify-content: right;
 }
+.flexcol{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: left; */
+
+}
 
 .fontWidth {
   font-weight: 700;

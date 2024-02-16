@@ -9,6 +9,7 @@ import CategoryBox from "../Features/CategoryBox";
 import Analytics from "../Features/AnalyticsInfo";
 import PlanDescription from "../Features/PlanDescription";
 import NeetGroupImg from "../Features/NeetGroupImg";
+import Testimonial from "../Features/Testimonial";
 
 
 const MainComponent = ()=>{
@@ -21,6 +22,7 @@ const MainComponent = ()=>{
       <PlanDescription/>
       <NeetGroupImg />
       <Testimonials/>
+      {/* <Testimonial /> */}
       <Footer />
     </Fragment>
   )
