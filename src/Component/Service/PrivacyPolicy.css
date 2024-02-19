@@ -30,3 +30,35 @@
 .insideButton{
     font-size: xx-large;
 }
+
+.PrivacyPolicyBox{
+    margin: 4%;
+}
+
+.PPBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+.PrivacyTextBox{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.PPFontSize{
+    font-size: 1rem;
+}
+.List{
+    margin-left: 2%;
+    list-style-type: disc;
+}
+@media(max-width: 498px){
+    .PPFontSize{
+        font-size: 2.5rem;
+    }
+    .PPHeadFontSize{
+        font-size: 2.8rem;
+    }
+}
