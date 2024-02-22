@@ -32,7 +32,7 @@ const CategoryBox = () => {
                   Top Short Course
                 </DropdownMenuItem>,
                 <DropdownMenuItem onClick={() => { }}>
-                  Top Crash Course
+                 Top Crash Course
                 </DropdownMenuItem>
               ]}>
               Delete <DeleteForeverIcon />

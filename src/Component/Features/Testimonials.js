@@ -11,6 +11,8 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
+import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
+import EastIcon from '@mui/icons-material/East';
 
 const steps = [
   { id : "1",
@@ -118,10 +120,10 @@ function Testimonials() {
 
        
         <div className="TestimonialsArrow">
-            <Button className="Arrow1" onClick={handleBack} disabled={activeStep === 0}><img src={arrowleft} /></Button>
+            <Button className="Arrow1" onClick={handleBack} disabled={activeStep === 0}><KeyboardBackspaceIcon /></Button>
             <Button className="Arrow2" onClick={handleNext}
             disabled={activeStep === maxSteps - 1}
-          ><img src={arrowright} /></Button>
+          ><EastIcon /></Button>
           </div>
       </div>
 
