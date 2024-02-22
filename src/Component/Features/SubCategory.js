@@ -1,5 +1,6 @@
 import { Typography, Box, Button } from "@mui/material";
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
+import { Link } from "react-router-dom";
 
 const SubCategory = ({ categorySelected }) => {
   const categoryType = {
@@ -14,32 +15,35 @@ const SubCategory = ({ categorySelected }) => {
     ],
   };
 
+  const [savedPath, setSavedPath] = useState("");
+
   const handleCourses = ({ type }) => {
     console.log(type);
+
     switch (type) {
-      case "Top Crash Course":{
-        window.open("/TopCourse","_self")
-        console.log("oijn")
+      case "Top Crash Course": {
+        console.log("sdojif");
+        setSavedPath("/TopCourse");
         break;
       }
-      case "EDIC 1":{
-        window.open("/EDIC","_self")
-        console.log("oijn")
+      case "EDIC 1": {
+        setSavedPath("/EDIC",);
+        console.log("oijn");
         break;
       }
-      case "EDIC 2":{
-        window.open("/EDIC2","_self")
-        console.log("oijn")
+      case "EDIC 2": {
+        setSavedPath("/EDIC2",);
+        console.log("oijn");
         break;
       }
-      case "TRICS-IDCCM":{
-        window.open("/IDCCM","_self")
-        console.log("oijn")
+      case "TRICS-IDCCM": {
+        setSavedPath("/IDCCM",);
+        console.log("oijn");
         break;
       }
-            
+
       default:
-   }
+    }
   };
   return (
     <Fragment>
@@ -48,12 +52,13 @@ const SubCategory = ({ categorySelected }) => {
           <Fragment>
             <Box className="subCatBox">
               <Typography className="subCatHead">{data}</Typography>
-              <Button
+              <Link
+                to={savedPath}
                 onClick={() => handleCourses({ type: data })}
                 className="subCatSubHead"
               >
                 Explore
-              </Button>
+              </Link>
             </Box>
 
             {categoryType[categorySelected].length > 2 ? <br /> : null}
