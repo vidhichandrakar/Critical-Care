@@ -10,6 +10,7 @@ import TopCourse from './Component/AllCourse/TopCourse';
 import EDIC from './Component/AllCourse/EDIC';
 import EDIC2 from './Component/AllCourse/EDIC2';
 import IDCCM from './Component/AllCourse/IDCCM';
+import DemoApi from './Component/Service/DemoApi';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/EDIC' Component={EDIC}/>
         <Route path='/EDIC2' Component={EDIC2}/>
         <Route path='/IDCCM' Component={IDCCM}/>
+        <Route path='/Demo' Component={DemoApi}/>
       </Routes>
     </div>
   );

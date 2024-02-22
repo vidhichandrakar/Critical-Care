@@ -29,7 +29,15 @@
   margin-left: 2%;
   margin-top: 1%;
 }
+.Hamburger{
+  width: 100% !important;
+  height: 7vh !important;
+}
 /* Top Crash Course CSS End*/
+
+.DemoBox{
+  margin: 10%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

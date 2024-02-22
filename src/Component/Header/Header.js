@@ -56,7 +56,7 @@ function Header() {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              <MenuIcon />
+              <MenuIcon className="Hamburger"/>
             </IconButton>
             <Menu
               id="menu-appbar"

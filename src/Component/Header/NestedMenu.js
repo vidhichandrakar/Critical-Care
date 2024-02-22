@@ -64,6 +64,12 @@ const DropDown = ({variant, icon}) => {
                 style={{ color: "inherit", textDecoration: "none" }}
               >Top Crash Course</Link>
               </DropdownMenuItem>,
+              <DropdownMenuItem onClick={() => {}}>
+               <Link
+                to="/Demo"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >DemoApi</Link>
+              </DropdownMenuItem>,
             ]}
           >
             Delete <DeleteForeverIcon />
