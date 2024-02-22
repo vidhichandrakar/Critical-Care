@@ -149,3 +149,26 @@ export const FAQData = [
     para: "Please refer to the terms and conditions on the 360 Critical Care Academy website for information on the refund policy for course subscriptions.",
   },
 ];
+export const TopCrashCourse = [
+  {
+    heading: "Intensive Exam Preparation:",
+    para: "Undertake a thorough and exhaustive preparation program consisting of meticulously curated teaching sessions. This rigorous curriculum is tailored to equip students with the depth of knowledge necessary for success."
+ },
+  {
+    heading: "Preparatory Pathway Plan (3P):",
+    para: "Offer an exclusive 'Preparatory Pathway Plan' (3P) meticulously designed to guide and support students who aspire to excel in the DM/DNB in Critical Care examination. This strategic plan serves as a compass for focused and effective preparation.",
+  },
+
+  {
+    heading: "Comprehensive Exam Coverage:",
+    para: "Provide an all-encompassing exam preparation course that seamlessly integrates both domains of the examination, namely, Theory, OSCE (Objective Structured Clinical Examination), and Practical VIVA (Viva Voce). This holistic approach ensures a well-rounded and in-depth understanding of the subject matter- i.e. THEORY OSCE & Practical VIVA",
+  },
+  {
+    heading: "Mock Exams under Exam Conditions:",
+    para: "Implement a cutting-edge assessment methodology by incorporating MOCK exams at the conclusion of each module. These simulated exams meticulously recreate real exam conditions, offering students a valuable opportunity to assess and refine their exam-taking strategies. Both Theory and Practical MOCK exams are included to enhance preparedness.",
+  },
+  {
+    heading: 'Specialized Theory MOCKs for "DM/DNB-SS" Exams:',
+    para: 'Exclusively provide Theory MOCK exams tailored to align with the unique requirements of the "DM/DNB-SS" exams. This specialized focus ensures that students are exposed to the precise examination format, fostering familiarity and confidence in tackling the theoretical aspects of the critical care examination',
+  },
+];

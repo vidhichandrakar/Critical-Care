@@ -19,6 +19,18 @@
   margin: auto !important;
   margin-top: 50px !important;
 }
+
+/* Top Crash Course CSS start*/
+.TopCrashBox{
+  text-align: left;
+  margin: 5%;
+}
+.ContentBox{
+  margin-left: 2%;
+  margin-top: 1%;
+}
+/* Top Crash Course CSS End*/
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

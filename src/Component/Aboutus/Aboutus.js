@@ -13,75 +13,6 @@ function Aboutus() {
   return (
     <Fragment>
       <Header />
-      {/* <div>
-        <div className="Aboutbox box-col">
-          <div className="width_margin textLeft">
-            <h1>About Us</h1>
-            <p>Physics is ❤️. Class 11th, 12th, JEE, NEET preparation</p>
-            <p>
-              PhysicsWallah aims at providing quality content to every child for
-              free. Live classes, video lectures, test series, lecturewise
-              notes, topicwise assignment with best questions, dynamic exercise
-              and much more. Almost 90% content on this App is for free and will
-              always be. The founder Alakh Pandey stands for education for every
-              child irrespective of it's economic status.
-            </p>
-          </div>
-          <div className="box-fix">
-            <div className="w30 box">
-              <img
-                src={Logo}
-                sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
-                width={250}
-                height={50}
-              />
-            </div>
-          </div>
-        </div>
-        <div className="Testmain">
-          <div className="testBox">
-            <p>{AboutData.content1.heading}</p>
-            <p>{AboutData.content1.para}</p>
-          </div>
-          <div className="testBox">
-            <p>{AboutData.content1.heading}</p>
-            <p>{AboutData.content1.para}</p>
-          </div>
-          <div className="testBox">
-            <p>{AboutData.content1.heading}</p>
-            <p>{AboutData.content1.para}</p>
-          </div>
-          <div className="testBox">
-            <p>{AboutData.content1.heading}</p>
-            <p>{AboutData.content1.para}</p>
-          </div>
-          <div className="testBox">
-            <p>{AboutData.content5.heading}</p>
-            <p>{AboutData.content5.para}</p>
-          </div>
-          <div className="testBox Download-row">
-            <p>Download App</p>
-            <a href="#">
-              <img
-                src={GoogleLogo}
-                sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
-                width={100}
-                height={40}
-                className="margin DownloadMargin "
-              />
-            </a>
-            <a href="#">
-              <img
-                src={AppLogo}
-                sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
-                width={100}
-                height={40}
-                className="margin DownloadMargin "
-              />
-            </a>
-          </div>
-        </div>
-      </div> */}
       <Box>
         <div className="Aboutbox box-col">
           <div className="width_margin textLeft">
@@ -97,29 +28,7 @@ function Aboutus() {
             </p>
             <p className="textHead">The idea of this endeavor originated with....</p>
           </div>
-          <Box className="flexrow SB">
-            {/* 2 image dalna hae inche  */}
-          {/* <div className="box-fix">
-            <div className="w30 box">
-              <img
-                src={Logo}
-                sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
-                width={250}
-                height={50}
-              />
-            </div>
-          </div> */}
-          <div className="box-fix">
-            <div className="w30 box">
-              <img
-                src={Logo}
-                sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
-                width={250}
-                height={50}
-              />
-            </div>
-          </div>
-          </Box>
+          
         </div>
         <div className="Aboutbox box-col">
         <div className="Testmain">

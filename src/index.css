@@ -540,15 +540,8 @@ font-family: "Inter" !important;
   .paddingDropdown {
     padding: 0px !important;
   }
-  .wrap1-text-50-archiver {
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100ch;
-    width: 280px !important;
-  }
 }
+
 @media  (max-width: 484px) {
   .leftTextDesign{
     font-size: 1.4em !important;

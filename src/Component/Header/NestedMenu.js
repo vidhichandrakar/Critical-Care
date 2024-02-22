@@ -13,6 +13,7 @@ import {
   DropdownMenuItem,
   DropdownNestedMenuItem,
 } from "./NestedDropdown";
+import { Link } from "react-router-dom";
 
 const DropDown = ({variant, icon}) => {
   const handleCreate = () => {
@@ -58,7 +59,10 @@ const DropDown = ({variant, icon}) => {
                 Top Short Course
               </DropdownMenuItem>,
               <DropdownMenuItem onClick={() => {}}>
-                Top Crash Course
+               <Link
+                to="/TopCourse"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >Top Crash Course</Link>
               </DropdownMenuItem>,
             ]}
           >
@@ -68,8 +72,17 @@ const DropDown = ({variant, icon}) => {
             label="EDIC"
             rightIcon={<KeyboardArrowRightIcon />}
             menu={[
-              <DropdownMenuItem onClick={() => {}}>EDIC 1</DropdownMenuItem>,
-              <DropdownMenuItem onClick={() => {}}>EDIC 2</DropdownMenuItem>,
+              <DropdownMenuItem onClick={() => {}}> 
+              <Link
+              to="/EDIC"
+              style={{ color: "inherit", textDecoration: "none" }}
+            >EDIC 1</Link></DropdownMenuItem>,
+              <DropdownMenuItem onClick={() => {}}>
+                <Link
+              to="/EDIC2"
+              style={{ color: "inherit", textDecoration: "none" }}
+            >EDIC 2</Link>
+            </DropdownMenuItem>,
               <DropdownMenuItem onClick={() => {}}>TRICS-I</DropdownMenuItem>,
             ]}
           >
@@ -80,7 +93,10 @@ const DropDown = ({variant, icon}) => {
             rightIcon={<KeyboardArrowRightIcon />}
             menu={[
               <DropdownMenuItem onClick={() => {}}>
-                TRICS-IDCCM
+                <Link
+              to="/IDCCM"
+              style={{ color: "inherit", textDecoration: "none" }}
+            >TRICS-IDCCM</Link>
               </DropdownMenuItem>,
             ]}
           >
