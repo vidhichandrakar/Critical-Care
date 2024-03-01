@@ -75,6 +75,7 @@ function Header() {
               sx={{
                 display: { xs: "block", md: "none" },
               }}
+              className="menuSize"
             >
               <MenuItem
                 key={1}
@@ -91,11 +92,8 @@ function Header() {
                 <Link to="/About-us" style={{ color: 'inherit', textDecoration: 'none'}}> 
                   <Typography
                     textAlign="center"
-                    style={{
-                      color: "#000",
-                      fontFamily: "Inter !important",
-                      fontWeight: "600 !important",
-                    }}
+                    
+                    className="menuText"
                   >
                     About Us
                   </Typography>
@@ -110,11 +108,7 @@ function Header() {
                   {" "}
                   <Typography
                     textAlign="center"
-                    style={{
-                      color: "#000",
-                      fontFamily: "Inter !important",
-                      fontWeight: "600 !important",
-                    }}
+                    className="menuText"
                   >
                     Contact Us
                   </Typography>

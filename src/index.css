@@ -2,7 +2,6 @@ body {
  
   margin: 0 !important;
   padding: 0 !important;
-  /* padding-right: 0px !important; */
   overflow: visible !important;
   font-family:"Inter" !important;
   -webkit-font-smoothing: antialiased;
@@ -17,6 +16,12 @@ body {
   border-radius: 10px;
 
 }
+.menuText{
+  color: #000 !important;
+  font-family:Inter !important;
+  font-weight: 600 !important;
+  font-size: 1.8rem !important;
+}
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -24,7 +29,13 @@ body {
   border-radius: 10px;
 
 }
+.menuSize{
+  width:800px !important; 
 
+}
+.allCoursesIcon{
+  font-size: 1.8rem !important;
+}
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
@@ -543,8 +554,13 @@ font-family: "Inter" !important;
   }
   .paddingDropdown {
     padding: 0px !important;
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+    font-family: Inter !important;
+    text-transform: none !important;
   }
 }
+
 
 @media  (max-width: 484px) {
   .leftTextDesign{
@@ -578,7 +594,7 @@ font-family: "Inter" !important;
   .LoginButton{
     width:6 !important;
     height: 6 !important;
-    font-size: 0.6em !important;
+    font-size: 1em !important;
    
   }
   .leftDesign{
@@ -626,7 +642,7 @@ font-family: "Inter" !important;
   .LoginButton{
     width:5 !important;
     height: 5 !important;
-    font-size: 0.5em !important;
+    font-size: 1em !important;
    
   }
   .logo{
@@ -650,7 +666,7 @@ font-family: "Inter" !important;
   .LoginButton{
     width:2 !important;
     height: 2 !important;
-    font-size: 0.3em !important;
+    font-size: 1em !important;
    
   
   }
@@ -669,7 +685,7 @@ font-family: "Inter" !important;
   .LoginButton{
     width:1 !important;
     height: 1 !important;
-    font-size: 0.5em !important;
+    font-size: 1em !important;
   }
   
   .logo{
