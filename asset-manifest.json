@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Critical-Care/static/css/main.79463caf.css",
-    "main.js": "/Critical-Care/static/js/main.e25ed26b.js",
+    "main.css": "/Critical-Care/static/css/main.afe2ef93.css",
+    "main.js": "/Critical-Care/static/js/main.1d5c7cb9.js",
     "static/js/27.5bcc051e.chunk.js": "/Critical-Care/static/js/27.5bcc051e.chunk.js",
     "static/media/description.png": "/Critical-Care/static/media/description.941325776d756f978bac.png",
     "static/media/Header_wallpaper.png": "/Critical-Care/static/media/Header_wallpaper.d69b6e1c47c75a4fa19c.png",
@@ -23,7 +23,7 @@
     "index.html": "/Critical-Care/index.html"
   },
   "entrypoints": [
-    "static/css/main.79463caf.css",
-    "static/js/main.e25ed26b.js"
+    "static/css/main.afe2ef93.css",
+    "static/js/main.1d5c7cb9.js"
   ]
 }
