@@ -88,7 +88,7 @@ function Header() {
                 key={1}
                 onClick={handleCloseNavMenu}
                 style={{ fontFamily: "Inter !important" }}
-              >
+              > 
                 <Link to="/About-us" style={{ color: 'inherit', textDecoration: 'none'}}> 
                   <Typography
                     textAlign="center"
@@ -116,7 +116,7 @@ function Header() {
               </MenuItem>
             </Menu>
           </Box>
-         <Link to="/Critical-Care"><img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className='logo'  /></Link> 
+         <Link to="/applicationcriticalcare"><img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className='logo'  /></Link> 
         
         
           <Typography

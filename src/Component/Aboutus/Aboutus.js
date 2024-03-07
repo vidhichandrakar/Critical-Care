@@ -13,7 +13,7 @@ function Aboutus() {
   return (
     <Fragment>
       <Header />
-      <Box>
+      <Box className="aboutSection">
         <div className="Aboutbox box-col">
           <div className="width_margin textLeft">
             <h1>About Us</h1>
@@ -28,8 +28,8 @@ function Aboutus() {
             </p>
             <p className="textHead">The idea of this endeavor originated with....</p>
           </div>
-          
         </div>
+
         <div className="Aboutbox box-col">
         <div className="Testmain">
         <h3>Aims</h3>
@@ -38,6 +38,7 @@ function Aboutus() {
           </div>))}
           </div>
        </div>
+
         <div className="Aboutbox box-col">
         <div className="Testmain">
         <h3>Objectives</h3>

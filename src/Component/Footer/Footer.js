@@ -14,7 +14,7 @@ function Footer() {
         <div class="container">
           <div class="row">
             <div class="footer-col  center">
-              <Link to="/Critical-Care"><img
+              <Link to="/applicationcriticalcare"><img
                 src={Logo}
                 sx={{ display: { xs: "none", md: "flex" }, mr: 0 }}
                 width={250}
@@ -26,7 +26,7 @@ function Footer() {
                 curriculum that is the best fit for every student.
               </p>
             </div>
-            <div class="footer-col center">
+            <div class="footer-col center ">
               <div className="colFooterUpper pad-line">
                <a href='#'>
                 <img
@@ -67,7 +67,7 @@ function Footer() {
                   </a>
                 </div>
               </div>
-              <div className="col">
+              <div className="col ">
                 <h4>For Enquiry :</h4>
                 <h4>care@360criticalcare.com</h4>
               </div>
@@ -76,7 +76,7 @@ function Footer() {
           <div className="pad-line">
             <hr className="footerline" />
           </div>
-          <div className="row">
+          <div className="BottomRow">
             <div className="flexcol fontWidth text-color-white ">
              <Link to="/Terms-&-Condition" style={{ color: 'inherit', textDecoration: 'none'}}> <p >Terms and Condition |</p></Link>
              <Link to="/Privacy-policy" style={{ color: 'inherit', textDecoration: 'none'}}><p className="margin-left">Privacy Policy |</p></Link> 

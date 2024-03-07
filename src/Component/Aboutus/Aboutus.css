@@ -115,3 +115,23 @@
          width: 80%;
     }
 }
+
+            /* 3/3 start  */
+
+
+.aboutSection{
+    font-family: Gilroy-Medium, sans-serif !important;
+    /* this font is from PW  */
+}            
+
+@media (max-width: 360px){
+    .aboutSection{
+        margin: 0px -73px;
+    } 
+    /* I've only increased About us heading in media q  */
+    .width_margin textLeft h1{
+        font-size: 6.5rem !important;
+        font-weight: 600;
+        /* margin-bottom: 3% !important; */
+    }
+}           
