@@ -33,6 +33,9 @@
 
 .PrivacyPolicyBox{
     margin: 4%;
+    /* 5/3  */
+    font-family: Gilroy-Medium, sans-serif !important;
+    line-height: var(--bs-body-line-height);
 }
 
 .PPBox{
@@ -49,6 +52,7 @@
 }
 .PPFontSize{
     font-size: 1rem;
+    margin-top: 10%;
 }
 .List{
     margin-left: 2%;
@@ -56,7 +60,10 @@
 }
 @media(max-width: 498px){
     .PPFontSize{
-        font-size: 2.5rem;
+               /* 5/3 atart */
+        /* font-size: 2.5rem; */
+        font-size: 5.8rem;
+        padding-bottom: 5% !important;
     }
     .PPHeadFontSize{
         font-size: 2.8rem;

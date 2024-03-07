@@ -21,6 +21,11 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.BottomRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .col {
   display: flex;
   flex-direction: row;
@@ -62,7 +67,7 @@ ul {
   list-style: none;
 }
 .footer {
-  background-color: #000000;
+  background-color:  black;
   padding: 70px 0;
 }
 .footer-col {
@@ -76,6 +81,10 @@ ul {
 .sp {
   padding: 10px 0;
 }
+/* .AppLogo{
+  width: 100%;
+  height: 40vh;
+} */
 .footer-col h4 {
   font-size: 18px;
   color: #ffffff;
@@ -201,5 +210,124 @@ Link .text-decoraction-none {
   }
 }
 @media (max-width: 540px) {
- 
+ .BottomRow{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.8rem;
+ }
+ .FollowBox{
+  justify-content: left;
+ }
+ .FollowBox h4{
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-top: 1.5%;
+ }
+ .EnquiryBox{
+  justify-content: left;
+ }
+ .EnquiryBox h4{
+  font-size: 2.2rem;
+  font-weight: 500;
+ }
+ .LogoBOx{
+  justify-content: left !important;
+ }
+ .colFooterUpper {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+ .AppLogo{
+  width: 100%;
+  height: 14vh;
+  margin-left: -100%;
+}
+.mrlogo{
+  margin-left: -80%;
+}
+ .BR {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50%;
+}
+.TestimonialsHeading {
+  font-size: 4rem;
+}
+.TestimonialsLeftCard p {
+  margin: 36px 23px;
+  font-size: 2.3rem;
+}
+.TestimonialsLeftCard h3 {
+  margin-top: 18%;
+  font-size: 2.3rem;
+}
+.css-1x1xx5k {
+  max-width: 908px !important;
+  height: 80vh !important;
+}
+.ArrowIcon{
+  width: 90% !important;
+  height: 10vh !important;
+}
+.LogoFooter {
+  width: 100% !important;
+  height: 13vh !important;
+  margin-left: -168%;
+}
+
+.planSubTextTypo {
+  font-size: 2.3em !important;
+}
+.boxUnderHeading {
+  width: 40%;
+  margin-left: 30%;
+}
+.cardBox {
+  min-width: 60%;
+  margin-left: -2%;
+}
+.subCatBox {
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 43%;
+  min-width: 31% !important;
+  height: 42%;
+}
+.catHeading {
+  font-size: 3em !important;
+}
+.cardHome {
+  width: 96% !important;
+  padding: 3%;
+  box-shadow: 0px 0px 0px 3px #d3d3d3 !important;
+  margin-top: 10%;
+}
+.css-2ehmn7-MuiInputBase-root-MuiOutlinedInput-root{
+  font-size: 2rem !important;
+}
+.phoneTextFieldStartIcon{
+  margin-top: 16% !important; 
+}
+.phoneTextField {
+  width: 95%;
+  margin-top: 2% !important;
+}
+.ReponsiveLogo{
+  width: 30% !important;
+}
+.ShowButton{
+  display: block;
+}
+.ContentBox {
+  margin-top: 2%;
+  font-size: 2.2rem;
+}
+.TopCrashBox h5{
+  font-size: 3rem;
+  margin-left: 1%;
+}
+
 }

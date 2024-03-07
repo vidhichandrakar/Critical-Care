@@ -28,6 +28,7 @@ const DropDown = ({variant, icon}) => {
         contrastText: "#242105",
       },
       fonts: {
+        fontSize:"1.8rem",
         fontWeight: 600,
       },
     },
@@ -43,6 +44,7 @@ const DropDown = ({variant, icon}) => {
             style={{ fontWeight: 600, fontFamily: "Inter" }}
             endIcon={icon}
             className="paddingDropdown"
+
           >
             All Courses
           </Button>

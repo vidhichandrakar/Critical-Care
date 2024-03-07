@@ -101,7 +101,7 @@ function Testimonials() {
              <Box sx={{ maxWidth: 400, flexGrow: 1 }} className="TestimonialsLeftCard">
      
       <p className="testimonialPara wrap1-text-50-archiver">
-        {steps[activeStep].description}
+      <b>  {steps[activeStep].description}</b>
       </p>
       <h3 className="names">{steps[activeStep].label}</h3>
    
@@ -110,7 +110,7 @@ function Testimonials() {
      
       <p className="testimonialPara wrap1-text-50-archiver"
        >
-        {steps[activeStep].description}
+       <b> {steps[activeStep].description}</b>
       </p>
       <h3 className="names">{steps[activeStep].label}</h3>
    
@@ -120,10 +120,10 @@ function Testimonials() {
 
        
         <div className="TestimonialsArrow">
-            <Button className="Arrow1" onClick={handleBack} disabled={activeStep === 0}><KeyboardBackspaceIcon /></Button>
+            <Button className="Arrow1" onClick={handleBack} disabled={activeStep === 0}><KeyboardBackspaceIcon className="ArrowIcon" /></Button>
             <Button className="Arrow2" onClick={handleNext}
             disabled={activeStep === maxSteps - 1}
-          ><EastIcon /></Button>
+          ><EastIcon className="ArrowIcon" /></Button>
           </div>
       </div>
 
