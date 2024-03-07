@@ -44,7 +44,7 @@ function Header() {
   };
 
   return (
-    <AppBar position="static" className="AppHeader">
+    <AppBar position="fixed" className="AppHeader">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{  display: { xs: "flex", md: "none" } }}>
@@ -116,7 +116,7 @@ function Header() {
               </MenuItem>
             </Menu>
           </Box>
-         <Link to="/applicationcriticalcare"><img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className='logo'  /></Link> 
+         <Link to="/Critical-Care"><img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className='logo'  /></Link> 
         
         
           <Typography
@@ -187,7 +187,7 @@ function Header() {
             </Typography>
           </Box>
 
-          <Box sx={{ flexGrow: 0 }} className="loginContainer">
+          <Box sx={{ flexGrow: 0 ,position:"fixed",right:0}} className="loginContainer">
             <Button variant="contained" className="LoginButton">
               Login / Register
             </Button>

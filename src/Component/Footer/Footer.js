@@ -14,11 +14,12 @@ function Footer() {
         <div class="container">
           <div class="row">
             <div class="footer-col  center">
-              <Link to="/applicationcriticalcare"><img
+              <Link to="/Critical-Care"><img
                 src={Logo}
-                sx={{ display: { xs: "none", md: "flex" }, mr: 0 }}
+                // sx={{ display: { xs: "none", md: "flex" }, mr: 0 }}
                 width={250}
                 height={50}
+                className="LogoFooter"
               /></Link>
               <p className="text-color-white">
                 We understand that every student has different needs and
@@ -27,27 +28,27 @@ function Footer() {
               </p>
             </div>
             <div class="footer-col center ">
-              <div className="colFooterUpper pad-line">
+              <div className="colFooterUpper pad-line LogoBOx">
                <a href='#'>
                 <img
                   src={GoogleLogo}
-                  sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+                  // sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
                   width={100}
                   height={40}
-                  className="margin"
+                  className="margin AppLogo"
                 />
                 </a> 
                 <a href='#'>
                 <img
                   src={AppLogo}
-                  sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+                  // sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
                   width={100}
                   height={40}
-                  className="margin"
+                  className="margin AppLogo mrlogo"
                 />
                 </a>
               </div>
-              <div className="col">
+              <div className="col FollowBox">
                 <h4 className="text-color-white">Follow us :</h4>
                 <div>
                   <a href="#" className="sp">
@@ -67,7 +68,7 @@ function Footer() {
                   </a>
                 </div>
               </div>
-              <div className="col ">
+              <div className="col EnquiryBox">
                 <h4>For Enquiry :</h4>
                 <h4>care@360criticalcare.com</h4>
               </div>

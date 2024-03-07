@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
 }
 .width_margin{
     width:85%;
@@ -127,6 +128,7 @@
 @media (max-width: 360px){
     .aboutSection{
         margin: 0px -73px;
+        
     } 
     /* I've only increased About us heading in media q  */
     .width_margin textLeft h1{

@@ -6,7 +6,6 @@ import ExpandCircleDownRoundedIcon from "@mui/icons-material/ExpandCircleDownRou
 import AppLogo from "../../Media/Images/App_Logo.jpg";
 import GoogleLogo from "../../Media/Images/Google_logo.png";
 import Image1 from "../../Media/Media_Image/IMG-20240207-WA0036.jpg"
-
 const NavHome = () => {
   return (
     <Fragment>
@@ -40,8 +39,8 @@ const NavHome = () => {
             }}
           />
           <div className="storeLogo">
-            <img src={AppLogo} className="appLogo" />
-            <img src={GoogleLogo} className="googleLogo" />
+            <img src={AppLogo} className="appLogo ReponsiveLogo" />
+            <img src={GoogleLogo} className="googleLogo ReponsiveLogo" />
           </div>
         </div>
         <div className="divHomeImage">

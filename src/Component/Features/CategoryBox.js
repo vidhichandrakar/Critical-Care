@@ -7,6 +7,7 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { DropdownMenuItem, DropdownNestedMenuItem } from "../Header/NestedDropdown";
 import SubCategory from "./SubCategory";
+import SubCAtegoryBox from "./SubCAtegoryBox";
 
 const CategoryBox = () => {
   const [categorySelected,setCategorySelected]=useState("Category_One");
@@ -94,6 +95,7 @@ const CategoryBox = () => {
         <SubCategory categorySelected={categorySelected}/>
        </div> 
        </div>
+       <SubCAtegoryBox />
         <div>
         
         </div>

@@ -5,7 +5,7 @@ const Analytics = ({}) => {
   return (
     <Box className="analyticsBox">
       <Typography className="anaTypo">
-        360 Critical Care success stories Begin your journey to success
+         360 Critical Care success stories Begin your journey to success
       </Typography>
       {/* <Typography className="subTypo">With 360 Critcial care, Begin your journey to success</Typography> */}
       <Box className="analyticsCount">
