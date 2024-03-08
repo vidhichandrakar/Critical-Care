@@ -661,6 +661,7 @@ font-size: 1.3em !important;
     transform-style: preserve-3d;
     height: auto !important;
     width: 100%;
+    margin-top: 8%;
   }
   .logo {
     display: none;
@@ -694,8 +695,8 @@ font-size: 1.3em !important;
   font-size: 2.2rem !important;
 }
 .carousel-item img {
-  width: 96% !important;
-  height: 60vh !important;
+  width: 92% !important;
+  height: 35vh !important;
 }
 .center p {
   font-size: 2.3rem !important;
@@ -766,6 +767,19 @@ font-size: 1.3em !important;
   }
   .loginContainer {
     margin-right: 1%;
+  }
+}
+@media (max-width: 479px) {
+  .appLogo {
+    /* width: 80px !important;
+    height: 36px !important; */
+    /* 3/3 */
+    width: 40% !important;
+    height: 20% !important;
+  }
+  .googleLogo{
+    width: 40% !important;
+    height: 20% !important;
   }
 }
 @media (max-width: 379px) {
