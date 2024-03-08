@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import book from "../../Media/Images/book.png"
 
 const SubCAtegoryBox = () => {
     const [show, SetShow] = useState(false);
@@ -74,8 +75,12 @@ const SubCAtegoryBox = () => {
        <div className="SubCategoryBox">
        {CategoryData1.map((value) => (
            <Link to={value.herf}> <div className="SubBox">
-                <p><b>{value.head}</b></p>
+               <div className="leftCard"><p><b>{value.head}</b></p>
                 <p className="ShowButton">{value.Button}</p>
+                </div>
+                <div className="rightCard">
+                    <img src={book} className="cardImg"/>
+                </div>
             </div></Link>
         ))}
        {show && CategoryData2.map((value) => (
