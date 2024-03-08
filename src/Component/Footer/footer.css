@@ -204,6 +204,7 @@ Link .text-decoraction-none {
   .center p {
     font-size: 1.5em;
     text-align: left;
+    margin-top: 50%;
   }
   .container {
     width: 90%;
@@ -275,7 +276,10 @@ Link .text-decoraction-none {
 .LogoFooter {
   width: 100% !important;
   height: 13vh !important;
-  margin-left: -168%;
+  position: absolute;
+  left: 0;
+  margin-left: 10%;
+
 }
 
 .planSubTextTypo {
