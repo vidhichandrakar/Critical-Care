@@ -65,7 +65,7 @@ code {
 }
 .homeImage img {
   transform-style: preserve-3d;
-  height: 80vh !important;
+  height: 85vh !important;
   width: 100%;
   z-index: 78 !important;
   margin-top: 5%;
@@ -79,9 +79,10 @@ code {
   background-color: white;
   padding: 1%;
   border-radius: 25px 25px 25px 25px;
-  transform: translateY(-28%);
+  /* transform: translateY(-28%); */
   flex-direction: row;
   box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
+  margin-top: 3% !important;
 }
 
 .appImage {
@@ -105,12 +106,14 @@ code {
   width: 60%;
   margin-top: 4% !important;
   color: black !important;
+  font-size: 12rem !important;
   
 }
 .storeLogo {
   display: flex;
   flex-direction: row;
   margin-top: 5%;
+  margin-left: 15%;
 }
 .appLogo {
   width: 120px;
@@ -124,6 +127,7 @@ code {
 
 .css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
   color: #000 !important;
+  font-size: 2.5rem !important;
 }
 .arrowIcon {
   transform: rotate(275deg);
@@ -310,7 +314,7 @@ code {
   display: block;
   margin: auto;
   margin: 32px;
-  margin-top: -4%;
+  margin-top: 5%;
 }
 .catHeading {
   font-size: 2em !important;
@@ -561,7 +565,7 @@ font-size: 1.3em !important;
     padding: 2%;
     padding-bottom: 6% !important;
     border-radius: 25px 25px 25px 25px;
-    transform: translateY(-28%) !important;
+    /* transform: translateY(-28%) !important; */
     flex-direction: row;
     box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
   }
@@ -592,7 +596,7 @@ font-size: 1.3em !important;
     padding: 2%;
     padding-bottom: 9% !important;
     border-radius: 25px 25px 25px 25px;
-    transform: translateY(-28%) !important;
+    /* transform: translateY(-28%) !important; */
     flex-direction: row;
     box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
   }
@@ -640,7 +644,7 @@ font-size: 1.3em !important;
     background-color: white;
     padding: 2%;
     border-radius: 25px 25px 25px 25px;
-    transform: translateY(-28%) !important;
+    /* transform: translateY(-28%) !important; */
     flex-direction: row;
     box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
   }
@@ -659,7 +663,7 @@ font-size: 1.3em !important;
   }
   .homeImage img {
     transform-style: preserve-3d;
-    height: auto !important;
+    height: 41vh !important;
     width: 100%;
     margin-top: 8%;
   }
