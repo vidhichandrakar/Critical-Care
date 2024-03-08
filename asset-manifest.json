@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Critical-Care/static/css/main.051c886e.css",
+    "main.css": "/Critical-Care/static/css/main.e8f14446.css",
     "main.js": "/Critical-Care/static/js/main.aaaadced.js",
     "static/js/27.5bcc051e.chunk.js": "/Critical-Care/static/js/27.5bcc051e.chunk.js",
     "static/media/description.png": "/Critical-Care/static/media/description.941325776d756f978bac.png",
@@ -23,7 +23,7 @@
     "index.html": "/Critical-Care/index.html"
   },
   "entrypoints": [
-    "static/css/main.051c886e.css",
+    "static/css/main.e8f14446.css",
     "static/js/main.aaaadced.js"
   ]
 }
