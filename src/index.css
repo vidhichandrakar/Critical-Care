@@ -89,9 +89,9 @@ code {
   /* float: right; */
   position: absolute;
   right: 0;
-  margin-right: 2%;
+  margin-right: 14%;
   width: 27%;
-  height: 89%;
+  height: 49% !important;
 }
 
 .leftDesign {
@@ -127,7 +127,7 @@ code {
 
 .css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
   color: #000 !important;
-  font-size: 3rem !important;
+  font-size: 1.4rem !important;
 }
 .arrowIcon {
   transform: rotate(275deg);
@@ -515,6 +515,10 @@ font-size: 1.3em !important;
   /* this isn't working */
   font-size: 1.3em !important; 
 }
+.css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+  color: #000 !important;
+  font-size: 2rem !important;
+}
 }
 
                    /* 3/3 end  */
@@ -571,7 +575,7 @@ font-size: 1.3em !important;
   }
   .appImage {
     width: 30%;
-    height: 65%;
+    height: 49%;
   }
 }
 @media (max-width: 990px) {
@@ -615,6 +619,10 @@ font-size: 1.3em !important;
 @media (max-width: 484px) {
   .leftSubDesign {
     font-size: 2rem;
+  }
+  .css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+    color: #000 !important;
+    font-size: 2rem !important;
   }
   .analyticsCount {
     grid-template-columns: 1fr 1fr;
@@ -713,6 +721,10 @@ font-size: 1.3em !important;
   /* .leftTextDesign {
     font-size: 1.2em !important;
   } */
+  .css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+    color: #000 !important;
+    font-size: 2rem !important;
+  }
   .leftDesign {
     width: 100%;
     height: 50%;
