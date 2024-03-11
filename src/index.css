@@ -65,7 +65,7 @@ code {
 }
 .homeImage img {
   transform-style: preserve-3d;
-  height: 80vh !important;
+  height: 85vh !important;
   width: 100%;
   z-index: 78 !important;
   margin-top: 5%;
@@ -79,18 +79,19 @@ code {
   background-color: white;
   padding: 1%;
   border-radius: 25px 25px 25px 25px;
-  transform: translateY(-28%);
+  /* transform: translateY(-28%); */
   flex-direction: row;
   box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
+  margin-top: 3% !important;
 }
 
 .appImage {
   /* float: right; */
   position: absolute;
   right: 0;
-  margin-right: 2%;
+  margin-right: 14%;
   width: 27%;
-  height: 89%;
+  height: 49% !important;
 }
 
 .leftDesign {
@@ -105,12 +106,14 @@ code {
   width: 60%;
   margin-top: 4% !important;
   color: black !important;
+  font-size: 12rem !important;
   
 }
 .storeLogo {
   display: flex;
   flex-direction: row;
   margin-top: 5%;
+  margin-left: 15%;
 }
 .appLogo {
   width: 120px;
@@ -124,6 +127,7 @@ code {
 
 .css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
   color: #000 !important;
+  font-size: 1.4rem !important;
 }
 .arrowIcon {
   transform: rotate(275deg);
@@ -310,7 +314,7 @@ code {
   display: block;
   margin: auto;
   margin: 32px;
-  margin-top: -4%;
+  margin-top: 5%;
 }
 .catHeading {
   font-size: 2em !important;
@@ -360,15 +364,20 @@ code {
   box-shadow: 0px 0px 0px 3px #aaaaaa47 !important;
   margin-top: 4%;
   text-align: left;
-  padding: 4%;
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-bottom: 4%;
   font-size: 2.3rem !important;
   line-height: 100px;
   height: 81%;
+  display: flex;
+  flex-direction: row;
 }
 .ShowButton{
   display: none;
   font-size: 2.3rem;
-  color: blue;
+  color: rgb(102, 102, 239);
+  font-family: Inter;
 }
 .SubBox{
   font-size: 2.3rem;
@@ -511,6 +520,10 @@ font-size: 1.3em !important;
   /* this isn't working */
   font-size: 1.3em !important; 
 }
+.css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+  color: #000 !important;
+  font-size: 2rem !important;
+}
 }
 
                    /* 3/3 end  */
@@ -561,13 +574,13 @@ font-size: 1.3em !important;
     padding: 2%;
     padding-bottom: 6% !important;
     border-radius: 25px 25px 25px 25px;
-    transform: translateY(-28%) !important;
+    /* transform: translateY(-28%) !important; */
     flex-direction: row;
     box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
   }
   .appImage {
     width: 30%;
-    height: 65%;
+    height: 49%;
   }
 }
 @media (max-width: 990px) {
@@ -592,7 +605,7 @@ font-size: 1.3em !important;
     padding: 2%;
     padding-bottom: 9% !important;
     border-radius: 25px 25px 25px 25px;
-    transform: translateY(-28%) !important;
+    /* transform: translateY(-28%) !important; */
     flex-direction: row;
     box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
   }
@@ -611,6 +624,10 @@ font-size: 1.3em !important;
 @media (max-width: 484px) {
   .leftSubDesign {
     font-size: 2rem;
+  }
+  .css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+    color: #000 !important;
+    font-size: 2rem !important;
   }
   .analyticsCount {
     grid-template-columns: 1fr 1fr;
@@ -640,14 +657,14 @@ font-size: 1.3em !important;
     background-color: white;
     padding: 2%;
     border-radius: 25px 25px 25px 25px;
-    transform: translateY(-28%) !important;
+    /* transform: translateY(-28%) !important; */
     flex-direction: row;
     box-shadow: 1px 1px 1px 1px #d3d3d3 !important;
   }
   .LoginButton {
-    width: 6 !important;
-    height: 6 !important;
-    font-size: 1em !important;
+    width: 326px !important;
+    height: 57% !important;
+    font-size: 1.7em !important;
   }
   /* .leftDesign {
     width: 100%;
@@ -659,8 +676,9 @@ font-size: 1.3em !important;
   }
   .homeImage img {
     transform-style: preserve-3d;
-    height: auto !important;
+    height: 41vh !important;
     width: 100%;
+    margin-top: 13%;
   }
   .logo {
     display: none;
@@ -694,8 +712,8 @@ font-size: 1.3em !important;
   font-size: 2.2rem !important;
 }
 .carousel-item img {
-  width: 96% !important;
-  height: 60vh !important;
+  width: 92% !important;
+  height: 35vh !important;
 }
 .center p {
   font-size: 2.3rem !important;
@@ -708,15 +726,19 @@ font-size: 1.3em !important;
   /* .leftTextDesign {
     font-size: 1.2em !important;
   } */
+  .css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+    color: #000 !important;
+    font-size: 2rem !important;
+  }
   .leftDesign {
     width: 100%;
     height: 50%;
     margin-left: 2%;
   }
   .LoginButton {
-    width: 5 !important;
-    height: 5 !important;
-    font-size: 1em !important;
+    width: 326px !important;
+    height: 57% !important;
+    font-size: 1.7em !important;
   }
   .logo {
     display: none;
@@ -738,9 +760,9 @@ font-size: 1.3em !important;
 
 @media screen and (max-width: 413px) {
   .LoginButton {
-    width: 2 !important;
-    height: 2 !important;
-    font-size: 1em !important;
+    width: 326px !important;
+    height: 57% !important;
+    font-size: 1.7em !important;
   }
 
   .logo {
@@ -755,9 +777,9 @@ font-size: 1.3em !important;
 }
 @media (max-width: 340px) {
   .LoginButton {
-    width: 1 !important;
-    height: 1 !important;
-    font-size: 1em !important;
+    width: 326px !important;
+    height: 57% !important;
+    font-size: 1.7em !important;
   }
 
   .logo {
@@ -766,6 +788,19 @@ font-size: 1.3em !important;
   }
   .loginContainer {
     margin-right: 1%;
+  }
+}
+@media (max-width: 479px) {
+  .appLogo {
+    /* width: 80px !important;
+    height: 36px !important; */
+    /* 3/3 */
+    width: 40% !important;
+    height: 20% !important;
+  }
+  .googleLogo{
+    width: 40% !important;
+    height: 20% !important;
   }
 }
 @media (max-width: 379px) {
