@@ -236,7 +236,7 @@ Link .text-decoraction-none {
 }
  .AppLogo{
   width: 100%;
-  height: 14vh;
+  height: 9vh !important;
 }
 .mrlogo{
   margin-left: 18%;
@@ -257,6 +257,7 @@ Link .text-decoraction-none {
   margin-top: 18%;
   font-size: 2.3rem;
 }
+
 .css-1x1xx5k {
   max-width: 908px !important;
   height: 80vh !important;
