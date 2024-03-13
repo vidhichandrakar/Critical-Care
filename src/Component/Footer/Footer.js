@@ -16,7 +16,6 @@ function Footer() {
             <div class="footer-col  center">
               <Link to="/"><img
                 src={Logo}
-                // sx={{ display: { xs: "none", md: "flex" }, mr: 0 }}
                 width={250}
                 height={50}
                 className="LogoFooter"

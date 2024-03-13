@@ -12,6 +12,7 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import Logo from "../../Media/Images/Logo.png";
+import Logo360 from "../../Media/Media_Image/360Logo.PNG";
 import InputLabel from "@mui/material/InputLabel";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
@@ -48,6 +49,7 @@ function Header() {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{  display: { xs: "flex", md: "none" } }}>
+           
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -57,7 +59,10 @@ function Header() {
               color="inherit"
             >
               <MenuIcon className="Hamburger"/>
-            </IconButton>
+              </IconButton>
+            <Box>
+              <Link to="/Critical-Care"><img src={Logo360} className="Responsivelogo"/></Link> 
+            </Box>
             <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
