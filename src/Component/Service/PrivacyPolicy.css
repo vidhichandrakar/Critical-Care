@@ -9,7 +9,7 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size: xx-large;
     font-weight: bold;
-    font-size: 320%;
+    /* font-size: 320%; */
 }
 
 .allExceptHeading{
@@ -33,8 +33,7 @@
 
 .PrivacyPolicyBox{
     margin: 4%;
-    margin-top: 15% !important;
-    /* 5/3  */
+    margin-top: 6%;
     font-family: Gilroy-Medium, sans-serif !important;
     line-height: var(--bs-body-line-height);
 }
@@ -53,7 +52,6 @@
 }
 .PPFontSize{
     font-size: 1rem;
-    margin-top: 10%;
 }
 .List{
     margin-left: 2%;
@@ -63,10 +61,23 @@
     .PPFontSize{
                /* 5/3 atart */
         /* font-size: 2.5rem; */
-        font-size: 5.8rem;
-        padding-bottom: 5% !important;
+        /* font-size: 5.8rem; */
+        /* padding-bottom: 5% !important; */
+    }
+    .PPFontSize p{
+        font-size: 2.6rem !important;
+
     }
     .PPHeadFontSize{
-        font-size: 2.8rem;
+        font-size: 4rem !important;
+    }
+        /* .PrivacyTextBox{
+            font-size: 4.6rem !important;
+        } */
+    .PrivacyPolicyBox {
+        margin-top: 12%;
+    }
+    .PPHeadFontSize{
+        /* font-size: 2rem; */
     }
 }

@@ -1,6 +1,6 @@
 .TermsBox{
     margin: 5%;
-    margin-top: 15% !important;
+    margin-top: 8% !important;
 }
 .text h1{
     font-size: 1rem;
@@ -14,7 +14,7 @@
 }
 .text{
     text-align: left;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 .text li{
     font-size: 1rem !important;
@@ -28,7 +28,7 @@
 
 @media(max-width: 498px){
     .ContactFont{    
-         font-size: 2rem
+         font-size: 2.6rem
     }
     .text h4{
         /* font-size: 3.2rem !important; */
@@ -37,16 +37,19 @@
         padding-bottom: 5% !important;
     }
     .text li{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     .text p{
-        font-size: 2rem;
+        font-size: 2.6rem;
     }
     .List li{
-        font-size: 2rem !important;
+        font-size: 2.6rem !important;
     }
     .TermsList li{
-        font-size: 2rem !important;
+        font-size: 2.6rem !important;
+    }
+    .TermsBox{
+        margin-top: 15% !important;
     }
 
 }
