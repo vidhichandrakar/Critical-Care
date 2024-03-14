@@ -14,7 +14,7 @@ function Footer() {
         <div class="container">
           <div class="row">
             <div class="footer-col  center">
-              <Link to="/Critical-Care"><img
+              <Link to="/"><img
                 src={Logo}
                 width={250}
                 height={50}

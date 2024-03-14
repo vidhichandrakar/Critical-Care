@@ -120,7 +120,7 @@ function Header() {
               </MenuItem>
             </Menu>
           </Box>
-         <Link to="/Critical-Care"><img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className='logo'  /></Link> 
+         <Link to="/"><img src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className='logo'  /></Link> 
         
         
           <Typography

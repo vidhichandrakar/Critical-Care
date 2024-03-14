@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/Critical-Care' exact Component={MainComponent}/>
+        <Route path='/' exact Component={MainComponent}/>
         <Route path='/About-us' Component={Aboutus}/>
         <Route path='/Terms-&-Condition' Component={Terms}/>
         <Route path='/Contact-us' Component={ContactUs}/>
