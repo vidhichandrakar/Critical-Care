@@ -117,8 +117,12 @@ export const DropdownMenuItem = styled(MenuItem)`
 export const DropdownNestedMenuItem = styled(NestedMenuItem)`
   display: flex;
   justify-content: space-between !important;
+  font-family: 'Times New Roman', Times, serif !important;
+  font-weight: 600 !important;
+  font-size: 1.8rem !important;
 
   & > svg {
     margin-left: 32px;
+    
   }
 `;

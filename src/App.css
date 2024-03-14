@@ -32,8 +32,12 @@
   margin-top: 1%;
 }
 .Hamburger {
-  width: 100% !important;
-  height: 12vh !important;
+  /* width: 100% !important; */
+  /* height: 20vh !important; */
+  /* border: solid 2px black; */
+  font-size: 4rem !important;
+  position: absolute;
+  left: 0;  
 }
 /* Top Crash Course CSS End*/
 

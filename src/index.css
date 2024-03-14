@@ -16,9 +16,10 @@ body {
 }
 .menuText {
   color: #000 !important;
-  font-family: Inter !important;
+  font-family: 'Times New Roman', Times, serif !important;
   font-weight: 600 !important;
   font-size: 1.8rem !important;
+  
 }
 
 /* Handle */
@@ -55,7 +56,7 @@ code {
 .logo {
   width: 200px;
   height: 50px;
-  margin-left: 3%;
+  /* margin-left: 3%; */
 }
 .loginContainer {
   margin-right: 3%;
@@ -125,28 +126,33 @@ code {
   margin-left: 3%;
 }
 
-.css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+.MuiInputBase-input-MuiOutlinedInput-input {
   color: #000 !important;
   font-size: 1.4rem !important;
 }
 .arrowIcon {
   transform: rotate(275deg);
-  font-size: 2.2em !important;
+  font-size: 1.4em !important;
   color: #000;
 }
 .phoneTextFieldStartIcon {
   color: #000 !important;
-  font-size: 1.3em;
+  font-size: 25px !important;
   font-weight: 500 !important;
-  margin-top: 40% !important;
+  margin-top: 30% !important;
+  font-family: 'Times New Roman', Times, serif !important;
 }
 .leftSubDesign {
   font-weight: 600;
   font-size: 1.6em;
+  color: grey;
+  font-family: 'Times New Roman', Times, serif !important;
 }
 .leftTextDesign {
   font-size: 1.8em;
   font-weight: 600;
+  font-family: 'Times New Roman', Times, serif !important;
+ 
   /* font-family: "Inter"; */
   /* font-family: Gilroy, "sans-serif" !important; */
 }
@@ -420,7 +426,8 @@ code {
 }
 .planImg {
   width: 80%;
-  height: 477px;
+  height: 477px;  
+  border-radius: 10px;
 }
 .planText {
   margin-top: 6%;
@@ -520,7 +527,7 @@ font-size: 1.3em !important;
   /* this isn't working */
   font-size: 1.3em !important; 
 }
-.css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+.MuiInputBase-input-MuiOutlinedInput-input {
   color: #000 !important;
   font-size: 2rem !important;
 }
@@ -625,7 +632,7 @@ font-size: 1.3em !important;
   .leftSubDesign {
     font-size: 2rem;
   }
-  .css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+  .MuiInputBase-input-MuiOutlinedInput-input{
     color: #000 !important;
     font-size: 2rem !important;
   }
@@ -680,12 +687,7 @@ font-size: 1.3em !important;
     width: 100%;
     margin-top: 13%;
   }
-  .logo {
-    display: none;
-    width: 100px !important;
-    height: 40px !important;
-    margin-left: 1% !important;
-  }
+ 
   .loginContainer {
     margin-right: 1%;
   }
@@ -726,7 +728,7 @@ font-size: 1.3em !important;
   /* .leftTextDesign {
     font-size: 1.2em !important;
   } */
-  .css-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+  .MuiInputBase-input-MuiOutlinedInput-input {
     color: #000 !important;
     font-size: 2rem !important;
   }
@@ -741,10 +743,8 @@ font-size: 1.3em !important;
     font-size: 1.7em !important;
   }
   .logo {
-    display: none;
-    width: 100px !important;
-    height: 40px !important;
-    margin-left: 1% !important;
+    width: 50%;
+    height: 11vh;
   }
   .loginContainer {
     margin-right: 1%;
@@ -765,12 +765,7 @@ font-size: 1.3em !important;
     font-size: 1.7em !important;
   }
 
-  .logo {
-    display: none;
-    width: 150px !important;
-    height: 40px !important;
-    margin-left: 1% !important;
-  }
+ 
   .loginContainer {
     margin-right: 1%;
   }
@@ -782,10 +777,7 @@ font-size: 1.3em !important;
     font-size: 1.7em !important;
   }
 
-  .logo {
-    width: 100px !important;
-    height: 20px !important;
-  }
+ 
   .loginContainer {
     margin-right: 1%;
   }

@@ -30,6 +30,7 @@ const DropDown = ({variant, icon}) => {
       fonts: {
         fontSize:"1.8rem",
         fontWeight: 600,
+        fontFamily: "'Times New Roman', Times, serif"
       },
     },
   });
@@ -41,7 +42,7 @@ const DropDown = ({variant, icon}) => {
           <Button
             variant={variant}
             color="ochre"
-            style={{ fontWeight: 600, fontFamily: "Inter" }}
+            style={{ fontWeight: 600, fontFamily: "'Times New Roman', Times, serif" }}
             endIcon={icon}
             className="paddingDropdown"
 
@@ -63,7 +64,7 @@ const DropDown = ({variant, icon}) => {
               <DropdownMenuItem onClick={() => {}}>
                <Link
                 to="/TopCourse"
-                style={{ color: "inherit", textDecoration: "none" }}
+                style={{ color: "inherit", textDecoration: "none",fontFamily: "'Times New Roman', Times, serif" }}
               >Top Crash Course</Link>
               </DropdownMenuItem>,
               <DropdownMenuItem onClick={() => {}}>

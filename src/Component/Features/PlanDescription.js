@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import Desicription from "../../Media/Images/description.png";
+import Desicription from "../../Media/Media_Image/frontpage17.png";
 import Live from "../../Media/Images/Live Scheduled Lectures.svg";
 import dotOne from "../../Media/Images/dotted-line-1.svg";
 import dotTwo from "../../Media/Images/dotted-line-2.svg";
