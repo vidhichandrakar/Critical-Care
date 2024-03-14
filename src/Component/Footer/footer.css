@@ -342,12 +342,12 @@ Link .text-decoraction-none {
   color: #000 !important;
   font-family: 'Times New Roman', Times, serif !important;
   font-weight: 600 !important;
-  font-size: 1.8rem !important;
+  font-size: 2.5rem !important;
   
 }
 .paddingDropdown {
   padding: 0px !important;
-  font-size: 1.8rem !important;
+  font-size: 2.5rem !important;
   font-weight: 600 !important;
   font-family: 'Times New Roman', Times, serif !important;
   text-transform: none !important;
@@ -372,12 +372,16 @@ Link .text-decoraction-none {
   margin-left: 1%;
 }
 .Responsivelogo{ 
-  display: block;   
-  margin-top: 1%;
-  margin-left: 8%;
-  width: 44%;
+  display: inline;   
+  margin-top: -2%;
+    margin-left: 6%;
+    width: 22%;
+    position: fixed;
 }
-
+.MuiToolbar-root {
+  
+  min-height: 85px !important;
+}
 }
 
 /* @media (max-width: 484px) {
