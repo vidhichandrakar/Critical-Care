@@ -109,7 +109,8 @@ export const Dropdown = React.forwardRef(
 export const DropdownMenuItem = styled(MenuItem)`
   display: flex;
   justify-content: space-between !important;
-  
+  font-family: 'Times New Roman', Times, serif !important;  
+  font-size: 2.2rem !important;
   & > svg {
     margin-left: 32px;
   }
@@ -119,7 +120,7 @@ export const DropdownNestedMenuItem = styled(NestedMenuItem)`
   justify-content: space-between !important;
   font-family: 'Times New Roman', Times, serif !important;
   font-weight: 600 !important;
-  font-size: 1.8rem !important;
+  font-size: 2.3rem !important;
 
   & > svg {
     margin-left: 32px;

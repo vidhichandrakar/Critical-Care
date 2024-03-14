@@ -28,7 +28,7 @@ const DropDown = ({variant, icon}) => {
         contrastText: "#242105",
       },
       fonts: {
-        fontSize:"1.8rem",
+        fontSize:"2.8rem",
         fontWeight: 600,
         fontFamily: "'Times New Roman', Times, serif"
       },
