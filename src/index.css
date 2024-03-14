@@ -743,16 +743,9 @@ font-size: 1.3em !important;
     font-size: 1.7em !important;
   }
   .logo {
-<<<<<<< HEAD
     display: none;
     width: 50%;
     height: 11vh;
-=======
-    width: 78% !important;
-    height: 11vh !important;
-    margin-left: 27% !important;
-
->>>>>>> 93005dd6b74e781f0fad613fe4e4a69a98dc3814
   }
   .loginContainer {
     margin-right: 1%;
