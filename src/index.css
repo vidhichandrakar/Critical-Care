@@ -743,8 +743,10 @@ font-size: 1.3em !important;
     font-size: 1.7em !important;
   }
   .logo {
-    width: 50%;
-    height: 11vh;
+    width: 78% !important;
+    height: 11vh !important;
+    margin-left: 27% !important;
+
   }
   .loginContainer {
     margin-right: 1%;
