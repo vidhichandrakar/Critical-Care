@@ -426,7 +426,7 @@ code {
 }
 .planImg {
   width: 80%;
-  height: 477px;  
+  height: auto !important;  
   border-radius: 10px;
 }
 .planText {
@@ -683,9 +683,9 @@ font-size: 1.3em !important;
   }
   .homeImage img {
     transform-style: preserve-3d;
-    height: 41vh !important;
+    height: auto !important;
     width: 100%;
-    margin-top: 13%;
+    margin-top: 8%;
   }
  
   .loginContainer {
@@ -743,6 +743,7 @@ font-size: 1.3em !important;
     font-size: 1.7em !important;
   }
   .logo {
+    display: none;
     width: 50%;
     height: 11vh;
   }

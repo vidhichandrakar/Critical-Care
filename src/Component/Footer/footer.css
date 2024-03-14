@@ -55,9 +55,22 @@ body {
 .margin-left {
   margin-left: 8px;
 }
+.tw-bg {
+color: #144fe4;
+}
+.In-bg {
+color: rgb(228, 38, 54);
+}
+.fb-bg {
+  background-color: white;
+  color: #0675e8;
+  margin: 3px 15px;
+  padding: 0;
+  font-weight: 10;
+}
 .br-bg {
-  background-color: red;
-  color: white;
+  /* background-color: red; */
+  color: red;
   margin: 3px 15px;
   padding: 0;
   font-weight: 10;
@@ -151,6 +164,9 @@ Link .text-decoraction-none {
 }
 .bg_color {
   background-color: black;
+}
+.AppLogo{
+  border: solid 1px white;
 }
 /*responsive*/
 @media (max-width: 1110px) {
@@ -253,10 +269,11 @@ Link .text-decoraction-none {
  .AppLogo{
   width: 80% !important;
   height: 14vh !important;
+  border: solid white;
 }
-/* .mrlogo{
-  margin-left: 18%;
-} */
+.mrlogo{
+  /* margin-left: 0%; */
+}
  .BR {
   width: 60px !important;
   height: 60px !important;
@@ -283,7 +300,7 @@ Link .text-decoraction-none {
   height: 10vh !important;
 }
 .LogoFooter {
-  width: 59% !important;
+  width: 50% !important;
   height: 13vh !important;
   margin-left:-2%;
 }
@@ -356,9 +373,10 @@ Link .text-decoraction-none {
   font-size: 3rem;
   margin-left: 1%;
 }
-.Responsivelogo{    
+.Responsivelogo{ 
+  display: block;   
   margin-top: 1%;
-  margin-left: 20%;
+  margin-left: 8%;
   width: 44%;
 }
 

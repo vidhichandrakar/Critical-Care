@@ -61,7 +61,7 @@ function Header() {
               <MenuIcon className="Hamburger"/>
               </IconButton>
             <Box>
-              <Link to="/Critical-Care"><img src={Logo360} className="Responsivelogo"/></Link> 
+              <Link to="/Critical-Care"><img src={Logo} className="Responsivelogo"/></Link> 
             </Box>
             <Menu
               id="menu-appbar"

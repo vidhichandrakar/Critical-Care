@@ -1,11 +1,20 @@
 import React from "react";
 import "./footer.css";
 import Logo from "../../Media/Images/Logo.png";
-import GoogleLogo from "../../Media/Images/Google_logo.png";
+// import GoogleLogo from "../../Media/Images/Google_logo.png";
+import GoogleLogo from "../../Media/Media_Image/GoogleStore.PNG";
 import fb from "../../Media/Images/fblogo.PNG";
-import AppLogo from "../../Media/Images/App_Logo.jpg";
+// import AppLogo from "../../Media/Images/App_Logo.jpg";
+import AppLogo from "../../Media/Media_Image/AppStore.PNG";
+import FB from "../../Media/Media_Image/FacebookLogo.svg";
+import IG from "../../Media/Media_Image/Instagram.svg";
+import TW from "../../Media/Media_Image/twitter.svg";
+import YT from "../../Media/Media_Image/youtube.svg";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import {Link} from 'react-router-dom';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 function Footer() {
   return (
@@ -51,19 +60,25 @@ function Footer() {
                 <h4 className="text-color-white">Follow us :</h4>
                 <div>
                   <a href="#" className="sp">
-                    <img src={fb} className="BR" />
+                    <img src={FB} className="BR" />
+                    {/* <FacebookIcon className="BR fb-bg" /> */}
                   </a>
                   <a href="#">
-                    <img
+                    {/* <img
                       src="https://ik.imagekit.io/y8s2vhk66ef/image_2_Bi5cqcyBFNT.png?updatedAt=1628624823915"className="BR" 
                       alt="instagram"
-                    />
+                    /> */}
+                    {/* <InstagramIcon className="BR In-bg"/> */}
+                    <img src={IG} className="BR" />
                   </a>
                   <a href="#">
-                    <YouTubeIcon className="BR br-bg"  />
+                    {/* <YouTubeIcon className="BR br-bg"  /> */}
+                    <img src={YT} className="BR" />
                   </a>
                   <a href="#">
-                    <img src=" https://ik.imagekit.io/y8s2vhk66ef/image_3_yByOZld4XFh.png?updatedAt=1628624824789" className="BR"  />
+                  {/* <img src={TW} className="BR" /> */}
+                    <TwitterIcon className="BR tw-bg"/>
+                    {/* <img src=" https://ik.imagekit.io/y8s2vhk66ef/image_3_yByOZld4XFh.png?updatedAt=1628624824789" className="BR"  /> */}
                   </a>
                 </div>
               </div>

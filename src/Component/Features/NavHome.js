@@ -3,8 +3,8 @@ import Home from "../../Media/Images/Header_wallpaper.png";
 import AppImage from "../../Media/Images/home_top_img2.png";
 import { Box, InputAdornment, TextField, Typography } from "@mui/material";
 import ExpandCircleDownRoundedIcon from "@mui/icons-material/ExpandCircleDownRounded";
-import AppLogo from "../../Media/Images/App_Logo.jpg";
-import GoogleLogo from "../../Media/Images/Google_logo.png";
+import AppLogo from "../../Media/Media_Image/AppStore.PNG";
+import GoogleLogo from "../../Media//Media_Image/GoogleStore.PNG";
 import Image1 from "../../Media/Media_Image/IMG-20240207-WA0036.jpg"
 const NavHome = () => {
   return (
