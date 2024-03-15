@@ -160,7 +160,7 @@ Link .text-decoraction-none {
 }
 /* PhoneTextcss */
 .phoneTextField .MuiOutlinedInput-root{
-  font-size: 25px !important;
+  font-size: 20px !important;
   font-family: Arial, Helvetica, sans-serif !important;
 }
 .bg_color {
@@ -249,6 +249,12 @@ Link .text-decoraction-none {
  }
  .FollowBox{
   justify-content: left;
+ }
+ .planImg{
+  height:36vh !important;
+ }
+ .planImgBottom{
+  width:36%;
  }
  .FollowBox h4{
   font-size: 2.2rem;
