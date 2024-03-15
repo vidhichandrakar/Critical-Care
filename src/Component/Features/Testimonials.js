@@ -73,9 +73,9 @@ function Testimonials() {
   return (
     <Fragment>
       <div className="TestimonialsMain">
-        <h3 className="TestimonialsHeading">Testimonials</h3>
+        <h4 className="TestimonialsHeading">Testimonials</h4>
         <Container fixed>
-        <Box className='boxUnderHeading' sx={{ bgcolor: '#cfe8fc', height: '0.5vh' }} />
+        <Box className='boxUnderHeading' sx={{ bgcolor: 'linear-gradient(90deg, #18568f 0%, #18568f 35%, #199884 100%)', height: '0.5vh' }} />
         </Container>
 
         <h1 className="secondHeading">
@@ -120,10 +120,10 @@ function Testimonials() {
 
        
         <div className="TestimonialsArrow">
-            <Button className="Arrow1" onClick={handleBack} disabled={activeStep === 0}><KeyboardBackspaceIcon className="ArrowIcon" /></Button>
-            <Button className="Arrow2" onClick={handleNext}
-            disabled={activeStep === maxSteps - 1}
-          ><EastIcon className="ArrowIcon" /></Button>
+          <KeyboardBackspaceIcon className="Arrow1" onClick={handleBack} disabled={activeStep === 0}/>
+            
+          <EastIcon className=" Arrow2"  onClick={handleNext}
+          disabled={activeStep === maxSteps - 1}/>
           </div>
       </div>
 
