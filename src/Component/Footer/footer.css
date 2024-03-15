@@ -32,6 +32,10 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.margin {
+  margin: 0 18px;
+  border-radius: 6px;
+}
 .col {
   display: flex;
   flex-direction: row;
@@ -45,10 +49,7 @@ body {
 .fontWidth {
   font-weight: 700;
 }
-.margin {
-  margin: 0 18px;
-  border-radius: 6px;
-}
+
 .BR {
   padding: 1px 0;
   margin: 0 15px;
@@ -71,6 +72,9 @@ color: rgb(228, 38, 54);
   margin: 3px 15px;
   padding: 0;
   font-weight: 10;
+}
+.FollowBox{
+margin-top: 4%;
 }
 .br-bg {
   /* background-color: red; */
@@ -111,6 +115,7 @@ ul {
   margin-bottom: 35px;
   font-weight: 500;
   position: relative;
+  margin-top: 1%;
 }
 
 .footer-col ul li:not(:last-child) {
@@ -159,9 +164,7 @@ ul {
 Link .text-decoraction-none {
   text-decoration: none;
 }
-.pad-line {
-  padding: 20px 0;
-}
+
 /* PhoneTextcss */
 .phoneTextField .MuiOutlinedInput-root{
   font-size: 20px !important;
@@ -174,6 +177,17 @@ Link .text-decoraction-none {
   border: solid 1px white;
 }
 /*responsive*/
+@media (min-width: 700px) {
+  .row {
+    margin: 0 100px;
+  }
+  .BottomRow {
+    margin: 0 100px;
+  }
+  .pad-line {
+    margin: 0 100px;
+  }
+}
 @media (max-width: 1110px) {
   .footer-col {
     width: 40%;
