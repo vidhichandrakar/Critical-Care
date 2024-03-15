@@ -42,7 +42,10 @@ const DropDown = ({variant, icon}) => {
           <Button
             variant={variant}
             color="ochre"
-            style={{ fontWeight: 600, fontFamily: "Arial, Helvetica, sans-serif" }}
+            style={{ fontWeight: 600, fontFamily: "Arial, Helvetica, sans-serif" ,color:" #18568f",
+            fontSize:"1rem",
+            textTransform:"none",
+            borderColor: "#18568f"}}
             endIcon={icon}
             className="paddingDropdown"
 

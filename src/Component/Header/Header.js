@@ -154,11 +154,10 @@ function Header() {
               onClick={handleCloseNavMenu}
               sx={{
                 color: "black",
-                fontFamily: "Inter",
                 fontWeight: "600",
-                marginLeft: "2%",
+                marginLeft: "3%",
                 fontSize: "1.1em",
-                marginTop: "0.4%",
+                marginTop: "1.2%",
                 fontFamily: "Arial, Helvetica, sans-serif "
               }}
             >
@@ -175,11 +174,10 @@ function Header() {
               onClick={handleCloseNavMenu}
               sx={{
                 color: "black",
-                fontFamily: "Inter",
                 fontWeight: "600",
-                marginLeft: "2%",
+                marginLeft: "3%",
                 fontSize: "1.1em",
-                marginTop: "0.4%",
+                marginTop: "1.2%",
                 fontFamily: "Arial, Helvetica, sans-serif "
               }}
             >
