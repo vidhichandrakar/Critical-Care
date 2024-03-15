@@ -3,7 +3,9 @@
     text-align: left;
     padding: 2%;
 }
-
+.PPHeadFontSize{
+    font-size: 1.8rem;
+}
 .privacyPolicyHeading{
     /* text-align: center; */
     font-family:Arial, Helvetica, sans-serif;
@@ -69,7 +71,7 @@
 
     }
     .PPHeadFontSize{
-        font-size: 4rem !important;
+        font-size: 3rem !important;
     }
         /* .PrivacyTextBox{
             font-size: 4.6rem !important;
@@ -77,7 +79,5 @@
     .PrivacyPolicyBox {
         margin-top: 12%;
     }
-    .PPHeadFontSize{
-        /* font-size: 2rem; */
-    }
+   
 }

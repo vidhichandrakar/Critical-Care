@@ -12,9 +12,7 @@ function Terms() {
       <Box className="TermsBox">
         <div className="text">
           <h2>
-            {/* <b>{TermsData.one.topic}</b> */}
-            
-              TERMS AND CONDIT<span className="AquaColor">ION</span>
+            TERMS AND CONDIT<span className="AquaColor">ION</span>
           </h2>
           <p>{TermsData.one.detail}</p>
         </div>
