@@ -16,7 +16,7 @@ body {
 }
 .menuText {
   color: #000 !important;
-  font-family: 'Times New Roman', Times, serif !important;
+  font-family: Arial, Helvetica, sans-serif !important;
   font-weight: 600 !important;
   font-size: 1.8rem !important;
   
@@ -66,10 +66,10 @@ code {
 }
 .homeImage img {
   transform-style: preserve-3d;
-  height: 85vh !important;
+  height: auto !important;
   width: 100%;
   z-index: 78 !important;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 .cardHome {
   width: 71% !important;
@@ -140,21 +140,18 @@ code {
   font-size: 25px !important;
   font-weight: 500 !important;
   margin-top: 30% !important;
-  font-family: 'Times New Roman', Times, serif !important;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 .leftSubDesign {
   font-weight: 600;
-  font-size: 1.6em;
+  font-size: 0.9em !important;
   color: grey;
-  font-family: 'Times New Roman', Times, serif !important;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 .leftTextDesign {
-  font-size: 1.8em;
+  font-size: 1em;
   font-weight: 600;
-  font-family: 'Times New Roman', Times, serif !important;
- 
-  /* font-family: "Inter"; */
-  /* font-family: Gilroy, "sans-serif" !important; */
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 /* Testimonials css start */
@@ -249,6 +246,8 @@ code {
 
 .TestimonialsLeftCard p {
   margin: 36px 23px;
+  
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 .TestimonialsLeftCard h3 {
   margin: 36px 23px;
@@ -296,10 +295,11 @@ code {
 .rowDesign {
   display: flex;
   flex-direction: row;
-  width: 59%;
+  width: 51%;
 }
 .subCatHead {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
   /* font-family: "Inter" !important; */
   font-size: 1.1em !important;
   height: 60px !important;
@@ -312,7 +312,7 @@ code {
 }
 
 .catDrop .css-1spzyyw-MuiButtonBase-root-MuiMenuItem-root {
-  font-family: "Inter" !important;
+  font-family: Arial, Helvetica, sans-serif !important;
   font-weight: bold !important;
 }
 
@@ -344,12 +344,15 @@ code {
   color: #0075ff;
 }
 /* subcategory */
+.category{
+  width:84% !important;
+}
 .subCatBox {
   margin-top: 3%;
   margin-left: 5%;
   width: 33%;
-  min-width: 31% !important;
-  height: 38%;
+  min-width: 35% !important;
+  height: 59%;
   background-color: #fff;
   box-shadow: 1px 1px 4px 2px #d3d3d3 !important;
   border-radius: 10px 10px 10px 10px;
@@ -357,9 +360,17 @@ code {
   align-items: left;
   text-align: left;
 }
+.subMenuText1{
+  font-size: 1rem !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.nestedMenu{
+  font-size: 1rem !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
 .rightBoxCat {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;  */
   min-width: 100%;
 }
 .SubCategoryBox{
@@ -399,7 +410,7 @@ code {
   margin-top: 3% !important;
 }
 .anaTypo {
-  font-size: 2.8em !important;
+  font-size: 2.3em !important;
   font-weight: 600 !important;
 }
 .analyticsCount {
@@ -412,11 +423,11 @@ code {
   margin-top: 1% !important;
 }
 .calCount {
-  font-size: 3em;
+  font-size: 2em !important;
   font-weight: 600;
 }
 .calMsg {
-  font-size: 1.3em;
+  font-size: 1.2em !important;
 }
 
 /* PlanDescription */
@@ -459,7 +470,7 @@ code {
   color: #0075ff !important;
   /* font-family: "Inter" !important; */
   /* font-family: Gilroy, "sans-serif" !important; */
-  font-size: 38px !important;
+  font-size: 28px !important;
   font-weight: 700 !important;
   line-height: 36.31px !important;
 }
@@ -643,7 +654,7 @@ font-size: 1.3em !important;
     margin-top: -34px;
   }
   .subCatBox {
-    height: 43%;
+    height: 59%;
   }
   .rowDesign{
     display: none;

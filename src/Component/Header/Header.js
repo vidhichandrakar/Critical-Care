@@ -85,14 +85,14 @@ function Header() {
               <MenuItem
                 key={1}
                 onClick={handleCloseNavMenu}
-                style={{ fontFamily: "'Times New Roman', Times, serif" }}
+                style={{ fontFamily: "Arial, Helvetica, sans-serif " }}
               >
                 <DropDown variant="null" icon={<KeyboardArrowRightIcon className="allCoursesIcon"/>}/>
               </MenuItem>
               <MenuItem
                 key={1}
                 onClick={handleCloseNavMenu}
-                style={{ fontFamily: "'Times New Roman', Times, serif"}}
+                style={{ fontFamily: "Arial, Helvetica, sans-serif "}}
               > 
                 <Link to="/About-us" style={{ color: 'inherit', textDecoration: 'none'}}> 
                   <Typography
@@ -106,7 +106,7 @@ function Header() {
               <MenuItem
                 key={1}
                 onClick={handleCloseNavMenu}
-                style={{ fontFamily: "'Times New Roman', Times, serif" }}
+                style={{ fontFamily: "Arial, Helvetica, sans-serif " }}
               >
                 <Link to="/Contact-us" style={{ color: 'inherit', textDecoration: 'none'}}>
                   {" "}
@@ -159,7 +159,7 @@ function Header() {
                 marginLeft: "2%",
                 fontSize: "1.1em",
                 marginTop: "0.4%",
-                fontFamily: "'Times New Roman', Times, serif"
+                fontFamily: "Arial, Helvetica, sans-serif "
               }}
             >
               <Link
@@ -180,7 +180,7 @@ function Header() {
                 marginLeft: "2%",
                 fontSize: "1.1em",
                 marginTop: "0.4%",
-                fontFamily: "'Times New Roman', Times, serif"
+                fontFamily: "Arial, Helvetica, sans-serif "
               }}
             >
               <Link
