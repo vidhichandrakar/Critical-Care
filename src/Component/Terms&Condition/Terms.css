@@ -1,6 +1,6 @@
 .TermsBox{
     margin: 5%;
-    margin-top: 8% !important;
+    margin-top: 7% !important;
 }
 .text h1{
     font-size: 1rem;
@@ -11,6 +11,15 @@
     font-size: 1rem;
     text-align: left;
     color: black;
+}
+.text h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+    /* color: #18568f; */
+}
+.AquaColor{
+    color: #199884 !important;
 }
 .text{
     text-align: left;
