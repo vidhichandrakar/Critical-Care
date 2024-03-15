@@ -1,6 +1,6 @@
 .TermsBox{
     margin: 5%;
-    margin-top: 8% !important;
+    margin-top: 7% !important;
 }
 .headSize{
     font-size: 1.5em ;
@@ -14,8 +14,30 @@
 }
 .text p{
     font-size: 1rem;
-    text-align: left;
+    text-align: justify;
     color: black;
+
+}
+.TermsList li{
+    font-size: 1rem;
+    text-align: justify !important;
+    margin: 30px;
+
+}
+.List li{
+    font-size: 1rem;
+    text-align: justify !important;
+    margin: 30px;
+
+}
+.text h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+    /* color: #18568f; */
+}
+.AquaColor{
+    color: #199884 !important;
 }
 .text{
     text-align: left;
@@ -35,9 +57,9 @@
     .ContactFont{    
          font-size: 2.6rem
     }
-    .text h5{
+    .text h2{
         font-size: 2.8rem !important;
-        padding-bottom: 5% !important;
+        padding-bottom: 2% !important;
     }
     .text li{
         font-size: 3rem;

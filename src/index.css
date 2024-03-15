@@ -217,6 +217,7 @@ code {
     font-size: xx-large;
     padding-bottom: 1%;
     height: 39vh;
+    text-align: justify;
   }
 }
 
@@ -530,6 +531,7 @@ code {
   font-size: 28px !important;
   font-weight: 700 !important;
   line-height: 36.31px !important;
+  text-align: justify;
 }
 .liveTextScnd {
   margin-top: 5% !important;
@@ -537,6 +539,7 @@ code {
   font-weight: 400 !important;
   color: #00000078;
   font-family: "Inter" !important;
+  text-align: justify;
 }
 
 

@@ -1,19 +1,12 @@
 import React from "react";
 import "./footer.css";
 import Logo from "../../Media/Images/Logo.png";
-// import GoogleLogo from "../../Media/Images/Google_logo.png";
-import GoogleLogo from "../../Media/Media_Image/GoogleStore.PNG";
-import fb from "../../Media/Images/fblogo.PNG";
-// import AppLogo from "../../Media/Images/App_Logo.jpg";
-import AppLogo from "../../Media/Media_Image/AppStore.PNG";
+import GoogleLogo from "../../Media/Media_Image/play-store.png";
+import AppLogo from "../../Media/Media_Image/app-store.png";
 import FB from "../../Media/Media_Image/FacebookLogo.svg";
 import IG from "../../Media/Media_Image/Instagram.svg";
-import TW from "../../Media/Media_Image/twitter.svg";
 import YT from "../../Media/Media_Image/youtube.svg";
-import YouTubeIcon from "@mui/icons-material/YouTube";
 import {Link} from 'react-router-dom';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 
 function Footer() {
@@ -36,7 +29,7 @@ function Footer() {
               </p>
             </div>
             <div class="footer-col center ">
-              <div className="colFooterUpper pad-line LogoBOx">
+              <div className="colFooterUpper LogoBOx">
                <a href='#'>
                 <img
                   src={GoogleLogo}
@@ -83,7 +76,7 @@ function Footer() {
                 </div>
               </div>
               <div className="col EnquiryBox">
-                <h4>For Enquiry :</h4>
+                <h4>For Enquiry :&nbsp;</h4>
                 <h4>care@360criticalcare.com</h4>
               </div>
             </div>
