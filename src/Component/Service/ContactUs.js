@@ -11,36 +11,34 @@ function ContactUs() {
       <Header />
       <Box className="ContactBox">
         <div className="ContactTaxt">
-          <h3>
-            <b>About the Team:</b>
-          </h3>
-          <p>
+        <p className="headSize">
+            About the Team:
+          </p>
+          <p className="textHead">
             Our team is composed of dedicated professionals with a passion for
             education. Each member brings a unique set of skills and expertise
             to ensure the highest quality of learning for our students.
           </p>
         </div>
         <Box className="ContactTaxt ContactFont">
-          <h3>
-            <b>Contact Us:</b>
-          </h3>
-          <p>Phone: +917070993343,7608052321</p>
-          <p>Email: 360criticalcare@gmail.com</p>
-          <p>Address: Plot/Flat no-502, Adhikary Arcade, Bariatu Road.</p>
-          <p>
+        <p className="headSize">Contact Us:
+          </p>
+          <p className="textHead">Phone: +917070993343,7608052321</p>
+          <p className="textHead">Email: 360criticalcare@gmail.com</p>
+          <p className="textHead">Address: Plot/Flat no-502, Adhikary Arcade, Bariatu Road.</p>
+          <p className="textHead">
             State-Jharkhand, Dist-Ranchi, Bariantu, Landmark: In front of
             Premsons motor.
           </p>
         </Box>
         <Box className="ContactTaxt">
-          <h3>
-            <b>FAQ</b>
-          </h3>
+        <p className="headSize">FAQ
+          </p>
           <Box>
             <h5>
-              <b>1. What is 360 Critical Care Academy all about?</b>
+              <b >1. What is 360 Critical Care Academy all about?</b>
             </h5>
-            <p>
+            <p className="textHead">
               Critical Care Medicine has progressed to the extent that it has
               become the backbone of modern medicine and surgical practice. The
               scope and resulting practice of Critical Care are emerging

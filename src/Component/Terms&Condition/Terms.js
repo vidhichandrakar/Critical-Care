@@ -11,9 +11,9 @@ function Terms() {
       <Header />
       <Box className="TermsBox">
         <div className="text">
-          <h4>
+          <h5>
             <b>{TermsData.one.topic}</b>
-          </h4>
+          </h5>
           <p>{TermsData.one.detail}</p>
         </div>
         <div className="text">

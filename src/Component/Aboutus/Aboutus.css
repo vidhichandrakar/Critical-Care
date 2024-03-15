@@ -6,10 +6,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
 }
 .width_margin{
-    width:85%;
+    width:95%;
 }
 .flexrow{
     display: flex;
@@ -36,12 +35,13 @@
 .textLeft{
     font-size: 1rem !important;
     text-align: left;
+    margin-top: 4%;
 }
 .textLeft p{
-    font-size: 2rem !important;
+    font-size: 1.2rem ;
     /* margin: 10px 0; */
     color: black;
-    font-weight: 300 !important;
+    font-weight: 300 ;
 }
 .Testmain{
     display: flex;
@@ -51,7 +51,7 @@
     margin: 40px;
 }
 .textHead{
-    font-size: 1.5rem !important;
+    font-size: 1.1rem !important;
     font-weight: 400 !important;
 }
 .testBox{
@@ -110,7 +110,8 @@
         flex-direction: column;
     }
     .textHead{
-        font-size: 2rem !important ;
+        font-size: 2.5rem !important ;
+        margin: 15px !important;
     }
     .Aboutbox{
         margin-top: 15%;
@@ -127,7 +128,7 @@
 
 
 .aboutSection{
-    font-family: Gilroy-Medium, sans-serif !important;
+    font-family: Arial, Helvetica, sans-serif !important;
     /* this font is from PW  */
 }            
 
