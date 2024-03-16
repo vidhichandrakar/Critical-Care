@@ -17,12 +17,13 @@ function Aboutus() {
     <Fragment>
       <Header />
       <Box className="aboutSection">
-        <div className="Aboutbox textLeft">
+        <div className="Aboutbox">
+          <div className="width_margin textLeft">
             <div className="AboutBox">
               <div className="AboutContent" >
-                <h3 className="Heading">
+                <p className="Heading">
                   About <span className="AquaColor">Us</span>
-                </h3>
+                </p>
                 <p className="textHead">
                   Critical Care Medicine has progressed to the extent that it
                   has become the backbone of modern medicine and surgical
@@ -58,7 +59,7 @@ function Aboutus() {
               <p className="textHead">{value.para}</p>
               </div>
             ))}
-          
+          </div>
         </div>
       </Box>
       <Footer />

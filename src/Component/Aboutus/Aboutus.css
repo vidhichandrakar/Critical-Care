@@ -17,13 +17,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 50px;
     /* width: 100%; */
 }
 .LogoBox{
     justify-content: center;
     border: solid 2px black;
     padding: 84px 50px;
+    margin: 25px;
 }
 .AboutLogo{
     width: 200px;
@@ -66,7 +67,7 @@
 .textLeft{
     font-size: 1rem !important;
     text-align: left;
-    margin-top: 7%;
+    margin-top: 2%;
 }
 .textLeft p{
     font-size: 1.2rem ;
@@ -157,6 +158,9 @@
     }
     .Heading{
         font-size: 2.6rem !important;
+    }
+    .Aboutbox{
+        margin: 0;
     }
 }
 
