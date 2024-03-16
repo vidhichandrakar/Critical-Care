@@ -58,6 +58,7 @@ code {
 .LoginButton {
   width: 30;
   height: 30;
+  background-color: #18568f !important;
 }
 .logo {
   width: 200px;
