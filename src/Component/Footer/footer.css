@@ -278,10 +278,15 @@ Link .text-decoraction-none {
   justify-content: left;
  }
  .planImg{
-  height:36vh !important;
+  height:41vh !important;
+  width: 96% !important;
  }
  .planImgBottom{
   width:36%;
+ }
+ .bottomLogoBox{
+  width: 96% !important;
+    margin-left: 2% !important;
  }
  .FollowBox h4{
   font-size: 2.2rem;
