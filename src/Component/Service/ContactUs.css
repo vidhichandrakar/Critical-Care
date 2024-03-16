@@ -3,8 +3,7 @@
     /* margin-top: 10%; */
 }
 .ContactBox{
-    margin: 5%;
-    margin-top: 7%;
+    margin: 8% 9% !important;
 }
 .ContactBox p{
     text-align: justify;
@@ -40,7 +39,7 @@
 @media(max-width: 498px){
     .ContactFont{    
          font-size: 2.5rem !important;
-         margin-top: 3%;
+         margin-top: 16% !important;
     }
     .ContactBox h3{
         font-size: 3.2rem;
@@ -57,7 +56,7 @@
         font-family: Arial, Helvetica, sans-serif  !important;
     }
     .ContactBox{
-        margin-top: 13% !important;
+        margin: 3% !important;
     }
     .MapBox{
         flex-direction: column;

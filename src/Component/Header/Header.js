@@ -46,7 +46,7 @@ function Header() {
 
   return (
     <AppBar position="fixed" className="AppHeader">
-      <Container maxWidth="xl">
+      <Container maxWidth="l">
         <Toolbar disableGutters>
           <Box sx={{  display: { xs: "flex", md: "none" } }}>
            
@@ -193,7 +193,7 @@ function Header() {
 
           <Box sx={{ flexGrow: 0 ,position:"fixed",right:0}} className="loginContainer">
             <Button variant="contained" className="LoginButton">
-              Login / Register
+              Login/Register
             </Button>
           </Box>
         </Toolbar>

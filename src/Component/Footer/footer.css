@@ -16,7 +16,7 @@ body {
   box-sizing: border-box;
 }
 .container {
-  max-width: 1170px;
+  max-width: 100%;
   margin: auto;
 }
 .Responsivelogo{
@@ -357,10 +357,13 @@ Link .text-decoraction-none {
   font-weight: bold !important;
 }
 .Aboutbox{
-  margin-top: 9% !important;
+  margin-top: 2% !important;
+}
+.PrivacyPolicyBox{
+  margin: 16% 4% !important;
 }
 .width_margin{
-  width: 82% !important;
+  width: 94% !important;
 }
 .cardBox {
   min-width: 60%;
