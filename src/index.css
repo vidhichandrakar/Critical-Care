@@ -58,6 +58,7 @@ code {
 .LoginButton {
   width: 30;
   height: 30;
+  background-color: #18568f !important;
 }
 .logo {
   width: 200px;
@@ -132,6 +133,9 @@ code {
   height: 36px;
   margin-left: 3%;
 }
+.secondHeading{
+  font-size: 1.8rem !important;
+}
 
 .MuiInputBase-input-MuiOutlinedInput-input {
   color: #000 !important;
@@ -164,12 +168,24 @@ code {
 /* Testimonials css start */
 
 .TestimonialsMain {
-  margin-top: 100px;
+  margin-top: 59px;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   padding-bottom: 2%;
 }
+.boxUnderHeading {
+  width: 20%;
+  margin-left: 40%;
+  background-image:  linear-gradient(to right top, #199884, #008a91, #007b99, #006999, #18568f) !important;
+}
 
+.TestimonialsHeading{
+  font-size: 1.6rem !important;
+}
+.Arrow2 {
+  margin-left: 3% !important;
+  font-size: 2.8rem !important;
+}
 @media (max-width: 1280px) {
   .TestimonialsMain {
     justify-content: center;
@@ -194,8 +210,8 @@ code {
     font-size: 0.9rem;
     padding: 0% 0;
   }
-  .arrow2 {
-    margin-left: 106%;
+  .Arrow2 {
+    margin-left: 10% !important;
   }
 
   .testimonialPara {
@@ -214,16 +230,22 @@ code {
 .boxUnderHeading {
   width: 20%;
   margin-left: 40%;
+  background-color:  linear-gradient(to right top, #199884, #008a91, #007b99, #006999, #18568f) !important;
 }
 
 .secondHeading {
-  font-size: 50px;
+  font-size: 1.7rem;
   font-weight: 400%;
   margin-top: 1.5%;
 }
 
 .theMasters {
-  color: linear-gradient(45deg, rgba(#6e72fc, #ad1deb)) !important;
+  /* color: linear-gradient(90deg, #18568f 0%, #18568f 35%, #199884 100%) !important; */
+  /* font-size: 72px; */
+  font-weight: 600;
+  background:  linear-gradient(90deg, #18568f 0%, #18568f 35%, #199884 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .TestimonialsCard {
@@ -243,13 +265,14 @@ code {
 }
 
 .testimonialPara {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-bottom: 1%;
-  height: 39vh;
+  height: 22vh;
 }
 
 .names {
-  margin-top: 0%;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .TestimonialsLeftCard p {
@@ -279,16 +302,19 @@ code {
   width: 180px;
 }
 
-.arrow1 {
-  margin-right: 22%;
+.Arrow1 {
+  font-size: 2.8rem !important;
 }
-.arrow2 {
-  width: 34%;
-  margin-left: 20%;
-  /* float: left; */
-  /* width: 50%;
-   margin-left: 20%; */
+.Arrow1:hover {
+  color:#199884;
+  cursor: pointer;
 }
+.Arrow2:hover {
+  color:#199884;
+  cursor: pointer;
+}
+
+
 
 /* Testimonials css End */
 

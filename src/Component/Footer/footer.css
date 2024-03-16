@@ -251,13 +251,22 @@ Link .text-decoraction-none {
     font-size: 2.2rem !important;
       }
   .calMsg{
-    font-size: 2.5em !important;
+    font-size: 2.3em !important;
   }
   .calCount{
-    font-size: 3em !important;
+    font-size: 2.8em !important;
   }
   .anaTypo{
-    font-size: 3.5em !important;
+    font-size: 3em !important;
+  }
+  .Arrow1{
+    font-size: 8rem !important;
+  }
+  .Arrow2{
+    font-size: 8rem !important;
+  }
+  .analyticsCount{
+  margin-top: 5% !important;
   }
  .BottomRow{
   display: flex;
@@ -309,6 +318,10 @@ Link .text-decoraction-none {
 .TestimonialsHeading {
   font-size: 4rem;
 }
+.TestimonialsLeftCard .MuiBox-root{
+  height: 55vh !important;
+  max-width: 908px !important;
+}
 .TestimonialsLeftCard p {
   margin: 36px 23px;
   font-size: 2.3rem;
@@ -320,8 +333,8 @@ Link .text-decoraction-none {
 
 .css-1x1xx5k {
   max-width: 908px !important;
-  height: 80vh !important;
-}
+  /* height: 80vh !important; */
+} 
 .ArrowIcon{
   width: 90% !important;
   height: 10vh !important;
