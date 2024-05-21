@@ -17,15 +17,15 @@ function ContactUs() {
             Contact <span className="AquaColor">Us</span>
           </h4>
           <p className="textHead">
-            This is the official page of Physics Wallah, where you can share all
+            This is the official page of Critical Care, where you can share all
             your queries, feedback, complaints, or any concern you may have
             about our centers, courses, and programs.
           </p>
           <p className="textHead">
-            Physics Wallah, India's leading student-oriented Edtech
+            Critical Care, India's leading student-oriented Edtech
             organization, is here to help all the students to solve their
             grievances. We're here to help you. We aim to solve all the queries
-            within 7 days. You can call on Physics Wallah's official Contact No.
+            within 7 days. You can call on Critical Care's official Contact No.
             07019243492, 24 x 7. If the phone is busy, we're resolving someone
             else's queries. We request you to contact us again after 15 minutes
             so that we can address your query or concern you may have regarding
@@ -35,8 +35,8 @@ function ContactUs() {
           </p>
           <p className="textHead divider">
             In Case of any grievance, don't hesitate to get in touch with us on
-            Physics Wallah's official contact number 07019243492. Or you can
-            write to us at support@pw.live.
+            Critical Care's official contact number 07019243492. Or you can
+            write to us at support@cc.live.
           </p>
           <Box className="MapBox">
             <Box className="AddressBox">
